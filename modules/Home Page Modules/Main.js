@@ -36,17 +36,17 @@ const all_select_options = document.querySelectorAll(".select");
 // ===================== Table & Controls =====================
 // Master checkbox used to select/deselect all employees
 const master_checkbox = document.querySelector(
-  ".home-content-area .employee_status .table .table_head input"
+  ".home-content-area .employee_status .table .table_head input",
 );
 
 // Element that displays the currently selected filter option
 export const current_filter_option = document.getElementById(
-  "current_filter_option"
+  "current_filter_option",
 );
 
 // All filter option elements
 const filter_options = Array.from(
-  document.querySelectorAll(".status-filter .options span")
+  document.querySelectorAll(".status-filter .options span"),
 );
 
 /* =====================================================
@@ -57,7 +57,7 @@ async function processData() {
   let actual_employees;
 
   // Check if employee data exists in localStorage
-  if (localStorage.actual_employees !== undefined) {
+  if (localStorage.getItem("actual_employees")) {
     actual_employees = JSON.parse(localStorage.actual_employees);
   } else {
     // Fetch employee data from JSON file if not found
@@ -75,7 +75,7 @@ async function processData() {
 /* ========================== NAV MENU ============================== */
 // Toggle sidebar open / close on menu button click
 sidebar_menu_btn.addEventListener("click", () =>
-  sidebar.classList.toggle("close_sidebar")
+  sidebar.classList.toggle("close_sidebar"),
 );
 
 /* ====================== DROP-DOWN LISTS =========================== */
@@ -121,7 +121,7 @@ filter_options.forEach((option) =>
   option.addEventListener("click", () => {
     current_filter_option.textContent = option.textContent;
     filter_employee(Person.all_employees);
-  })
+  }),
 );
 
 // ===================== Search Elements =====================
@@ -133,7 +133,7 @@ const search_btn = document.getElementById("search_btn");
 
 // Execute employee search on button click
 search_btn.addEventListener("click", () =>
-  search_employees(search_input.value)
+  search_employees(search_input.value),
 );
 
 // ===================== Initialize Application =====================

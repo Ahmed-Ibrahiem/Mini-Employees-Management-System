@@ -8,7 +8,7 @@ let threre_no_data = false;
 async function processData() {
   // Fetch date from json file if there are no data in localStorage
   let actual_employees;
-  if (localStorage.actual_employees !== undefined) {
+  if (localStorage.getItem("actual_employees")) {
     actual_employees = JSON.parse(localStorage.actual_employees);
   } else {
     actual_employees = await getData("employees_completed.json");

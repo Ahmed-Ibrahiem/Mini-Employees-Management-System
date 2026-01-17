@@ -10,7 +10,7 @@ const events_body = document.getElementById("events_body");
 let all_events;
 
 // Load events data from localStorage if exists
-if (localStorage.events_meeting !== undefined) {
+if (localStorage.getItem("events_meeting")) {
   all_events = JSON.parse(localStorage.events_meeting);
 } else {
   // Initialize empty events array if not found
@@ -106,14 +106,14 @@ open_event_form_popup.addEventListener("click", open_event_popup);
 // ===================== EVENT TYPE SELECT =====================
 const current_event_type = document.getElementById("type_event_option");
 const type_event_options = document.querySelectorAll(
-  ".event_form .field .select .options span"
+  ".event_form .field .select .options span",
 );
 
 // Update selected event type
 type_event_options.forEach((option) =>
   option.addEventListener("click", () => {
     current_event_type.textContent = option.textContent;
-  })
+  }),
 );
 
 // ===================== CRUD EVENTS =====================
