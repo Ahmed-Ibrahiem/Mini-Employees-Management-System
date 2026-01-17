@@ -8,16 +8,21 @@ import {
   is_form_valid,
 } from "../Known_language_popup.js";
 
-const all_employee_language = structuredClone(employee_details.known_languages);
-
+export let all_employee_language = structuredClone(
+  employee_details.known_languages,
+);
 localStorage.all_employee_language = JSON.stringify(all_employee_language);
+
+export const return_to_default_languages = () => {
+  all_employee_language = JSON.parse(localStorage.all_employee_language);
+};
 
 export const get_knowlage_language_data = () => {
   const all_input = Array.from(
-    document.querySelectorAll(".language_input_popup section input")
+    document.querySelectorAll(".language_input_popup section input"),
   );
 
-  const known_language = {
+  let known_language = {
     language: current_language_option.textContent || "Unknown",
     skills: {
       writing: "Unknown",

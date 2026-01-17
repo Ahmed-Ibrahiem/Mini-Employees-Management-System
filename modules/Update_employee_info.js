@@ -1,5 +1,6 @@
 // Import Person class which contains all employees data
 import { Person } from "../js/main.js";
+import { all_employee_language, return_to_default_languages } from "./Employee Details Modules/get_knowlage_language_data.js";
 
 // Import loading and completion UI handlers
 import { start_complete } from "./Employee Details Modules/Loading&Complete_showing.js";
@@ -41,7 +42,7 @@ export const update_employee_info = () => {
 
   // Update known languages from localStorage
   employee_details.known_languages = JSON.parse(
-    localStorage.all_employee_language
+    localStorage.all_employee_language,
   );
 
   // Persist updated employees array to localStorage
@@ -74,8 +75,10 @@ update_inputs.update_profile.addEventListener("click", () => {
 update_inputs.cancel_any_update.addEventListener("click", () => {
   // Restore known languages from employee object
   localStorage.all_employee_language = JSON.stringify(
-    employee_details.known_languages
+    employee_details.known_languages,
   );
+
+  return_to_default_languages()
 
   // Deactivate update button
   update_inputs.update_profile.classList.remove("active");
