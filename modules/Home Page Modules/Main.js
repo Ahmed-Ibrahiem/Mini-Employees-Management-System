@@ -56,12 +56,15 @@ const filter_options = Array.from(
 async function processData() {
   let actual_employees;
 
+  console.log(typeof localStorage.getItem("actual_employees"));
+
   // Check if employee data exists in localStorage
   if (localStorage.getItem("actual_employees")) {
+    console.log(localStorage.getItem("actual_employees"));
     actual_employees = JSON.parse(localStorage.actual_employees);
   } else {
     // Fetch employee data from JSON file if not found
-    actual_employees = await getData();
+    actual_employees = await getData("employees_completed.json");
     updateLocalStorage(actual_employees);
   }
 
