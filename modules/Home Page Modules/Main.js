@@ -14,10 +14,7 @@ import {
 import { filter_employee } from "./Filter_employee.js";
 
 // Import table body reference and render function
-import {
-  employee_table_body,
-  render_employee_table,
-} from "./Render_employee_table.js";
+import { employee_table_body } from "./Render_employee_table.js";
 
 // Import search functionality
 import { search_employees } from "./Search_employees.js";
@@ -56,11 +53,8 @@ const filter_options = Array.from(
 async function processData() {
   let actual_employees;
 
-  console.log(typeof localStorage.getItem("actual_employees"));
-
   // Check if employee data exists in localStorage
   if (localStorage.getItem("actual_employees")) {
-    console.log(localStorage.getItem("actual_employees"));
     actual_employees = JSON.parse(localStorage.actual_employees);
   } else {
     // Fetch employee data from JSON file if not found
