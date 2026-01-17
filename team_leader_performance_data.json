@@ -1,0 +1,32 @@
+{
+  "lastWeek": {
+    "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "designerTeam": [42, 45, 43, 48, 50, 47, 49],
+    "developerTeam": [38, 40, 39, 42, 44, 43, 41]
+  },
+
+  "lastMonth": {
+    "labels": ["Week 1", "Week 2", "Week 3", "Week 4"],
+    "designerTeam": [160, 175, 170, 185],
+    "developerTeam": [145, 155, 150, 165]
+  },
+
+  "lastYear": {
+    "labels": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "designerTeam": [40, 45, 30, 25, 50, 55, 48, 42, 60, 70, 68, 80],
+    "developerTeam": [35, 40, 38, 30, 45, 50, 42, 36, 32, 28, 35, 38]
+  }
+}

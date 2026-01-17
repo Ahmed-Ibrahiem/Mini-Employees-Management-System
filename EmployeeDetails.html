@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/searchPopus.css" />
+    <link rel="stylesheet" href="css/EmployeeDetails.css" />
+    <link rel="stylesheet" href="css/language_input_popup.css" />
+    <link rel="stylesheet" href="css/Toast_style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <div class="navbar">
+      <div class="nav_left">
+        <div class="img_box">
+          <img src="img/staff_logo.png" alt="" />
+          <h2>StaffM</h2>
+        </div>
+        <div class="search_part">
+          <input type="text" readonly value="search" id="search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Start App Content -->
+    <div class="app_content">
+      <!-- Start Menu -->
+      <div class="menu_container">
+        <div class="menu">
+          <div class="menu_content">
+            <ul>
+              <li class="active">
+                <div href="##">
+                  <div class="left">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Employee</span>
+                  </div>
+                  <i class="fa-solid fa-angle-right angle"></i>
+                </div>
+                <ul class="nested_ul">
+                  <li>
+                    <a href="index.html">Overview</a>
+                  </li>
+                  <li class="active">
+                    <a href="employee_table.html">Manage Employee</a>
+                  </li>
+                  <li><a href="directory.html">Directory</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="menu_btn">
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
+      <!-- Start Content -->
+      <div class="content">
+        <div class="header">
+          <div class="title">
+            <a href="index.html"> <i class="fa-solid fa-angle-left"></i></a>
+            <h2>Manage Employee</h2>
+          </div>
+          <div class="path">
+            <span>Home</span> / <span>Employee</span> /
+            <span class="current_page">Manage Employee Details</span>
+          </div>
+        </div>
+        <div class="container">
+          <div class="manage_content row gx-3">
+            <div class="tabs col-lg-9">
+              <div class="header">
+                <button class="current_tab" id="general">General</button>
+                <button id="jop">Job</button>
+                <button id="payroll">Payroll</button>
+                <button id="documents">Documents</button>
+                <button id="setting">Setting</button>
+              </div>
+              <div class="forms">
+                <form id="general_form">
+                  <div class="from_group row">
+                    <div class="col-sm-12 col-md-6 col-lg-4 box">
+                      <label for="first_name">First Name</label>
+                      <input type="text" id="first_name" />
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 box">
+                      <label for="last_name">Last Name</label>
+                      <input type="text" id="last_name" />
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 box">
+                      <p>Gender</p>
+                      <div class="select" id="gender_menu">
+                        <span class="current_option" id="employee_gender"
+                          >Female</span
+                        >
+                        <i class="fa-solid fa-angle-down"></i>
+                        <ul class="options" hidden>
+                          <li>Male</li>
+                          <li>Female</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 box">
+                      <label for="date_of_birth">Date of Birth</label>
+                      <input type="date" id="date_of_birth" />
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 box">
+                      <label for="email_id">Email ID</label>
+                      <input type="email" id="email_id" />
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 box">
+                      <label for="phone_number">Phone Number</label>
+                      <input type="number" id="phone_number" />
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 box">
+                      <label for="address">Address</label>
+                      <input type="text" id="employee_address" />
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 box">
+                      <label for="state">State</label>
+                      <input type="text" id="employee_status" />
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 box">
+                      <label for="country">Country</label>
+                      <input type="text" id="employee_country" />
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 box">
+                      <label for="city">City</label>
+                      <input type="text" id="employee_city" />
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 box pin_code_">
+                      <label for="pin_code">Pin Code</label>
+                      <input type="number" id="pin_code" />
+                      <div class="validation_message">
+                        <p></p>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 box">
+                      <label for="nationality">Nationality</label>
+                      <input type="text" id="employee_nationality" />
+                    </div>
+                  </div>
+                  <div class="known_language">
+                    <h3>Known Language</h3>
+                    <div class="language_list row g-3">
+                      <div class="language_items col-lg-4 col-md-6 col-sm-12">
+                        <p class="language">English</p>
+                        <div class="language_info">
+                          <div class="writing">
+                            <p>Writing</p>
+                            <span>Poor</span>
+                          </div>
+                          <div class="speaking">
+                            <p>Speaking</p>
+                            <span>Good</span>
+                          </div>
+                          <div class="understanding">
+                            <p>Understanding</p>
+                            <span>Excellent</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="language_control col-lg-4 col-md-6 col-sm-12">
+                        <button class="add_new" id="add_new_language">
+                          <i class="fa-solid fa-plus"></i> <span>Add New</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <div class="form_btns">
+                  <button class="update" id="update_profile">Update</button>
+                  <button class="cancel" id="cancel_any_update">Cancel</button>
+                </div>
+                <div class="complete">
+                  <img src="img/check.png" alt="" />
+                  <h1>Complete</h1>
+                </div>
+                <div class="loading">
+                  <img src="img/loading_icon.png" alt="" />
+                  <h1>Loading...</h1>
+                </div>
+              </div>
+            </div>
+            <div class="side_bar col-lg-3">
+              <div class="employee_info_content">
+                <div class="group_one">
+                  <div class="image">
+                    <div class="img_box">
+                      <img
+                        src="users/user 1.png"
+                        id="profile_image"
+                        width="50"
+                        alt=""
+                      />
+                    </div>
+                    <input type="file" id="person_image" hidden />
+                    <label for="person_image"
+                      ><i class="fa-solid fa-pen-to-square"></i
+                    ></label>
+                  </div>
+                  <div class="profile_name_status">
+                    <h1 id="profile_name">Madelyn Philips</h1>
+                    <span id="profile_status">Active</span>
+                  </div>
+                  <p class="profile_job_title" id="profile_job_title">
+                    Sr.UI/UX Design
+                  </p>
+                </div>
+                <div class="group_two">
+                  <p>Personal info</p>
+                  <div class="profile_presonal_contact">
+                    <div class="box">
+                      <p>
+                        <i class="fa-solid fa-envelope"></i> <span>Email</span>
+                      </p>
+                      <span id="profile_email">Madelyn@aera.com</span>
+                    </div>
+                    <div class="box">
+                      <p>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Contact us</span>
+                      </p>
+                      <span id="profile_contact_number">+1 265 985 4178</span>
+                    </div>
+                    <div class="box">
+                      <p>
+                        <i class="fa-solid fa-location"></i>
+                        <span>Location</span>
+                      </p>
+                      <span id="profile_location">Giza, EGP</span>
+                    </div>
+                    <div class="box">
+                      <p>
+                        <i class="fa-solid fa-cake-candles"></i>
+                        <span>Birthday</span>
+                      </p>
+                      <span id="profile_birthday">24th july, 1998</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="group_three" id="team_leader">
+                  <div class="team_leader_info">
+                    <div class="img_box">
+                      <img
+                        src="/users/user 10.png"
+                        id="profile_team_leader_image"
+                        width="50"
+                        alt=""
+                      />
+                    </div>
+                    <div class="text">
+                      <p>Team Leader</p>
+                      <span id="profile_team_leader_name">Philip p.</span>
+                    </div>
+                  </div>
+                  <i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div class="group_four">
+                  <div class="header">
+                    <p>Bank Information</p>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </div>
+                  <ul class="bank_information">
+                    <li>
+                      <p>Bank name</p>
+                      <span id="profile_bank_name">ICIC Bank</span>
+                    </li>
+                    <li>
+                      <p>Bank account No.</p>
+                      <span id="profile_bank_account">159 8430 1461 2589</span>
+                    </li>
+                    <li>
+                      <p>IFSC Code</p>
+                      <span id="profile_bank_code">ICI24045</span>
+                    </li>
+                    <li>
+                      <p>PAN No</p>
+                      <span id="profile_bank_pan_no">TC000Y56</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="group_five">
+                  <div class="header">
+                    <p>Education</p>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </div>
+                  <ul id="education_container">
+                    <li class="section">
+                      <div class="left">
+                        <p>Sr.UX/UI Designer</p>
+                        <span>jan 2020 - mar 2022</span>
+                      </div>
+                      <div class="right">2yr 5m</div>
+                    </li>
+                    <li class="section">
+                      <div class="left">
+                        <p>Jr.UX/UI Designer</p>
+                        <span>Dec 2018 - Dec 2019</span>
+                      </div>
+                      <div class="right">1yr</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Start Search Popup -->
+        <div class="search_popup" id="search_popup">
+          <div class="search_box">
+            <button class="cancel" id="cancel_search">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <input
+              type="text"
+              placeholder="Search Employees"
+              id="search_input"
+              autocomplete="off"
+            />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div class="search_result" id="search_result">
+              <span>yes</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Start Language Input Popup  -->
+        <div class="language_input_popup">
+          <form class="language_form">
+            <h1>Known Language</h1>
+            <section>
+              <span> Language </span>
+              <div class="select main" id="select_language_known">
+                <p class="current_option main">Select language...</p>
+                <i class="fa-solid fa-angle-right main"></i>
+                <div class="options" hidden>
+                  <span>English</span>
+                  <span>Arabic</span>
+                  <span>Spanish</span>
+                  <span>French</span>
+                  <span>German</span>
+                  <span>Italian</span>
+                  <span>Portuguese</span>
+                  <span>Russian</span>
+                  <span>Chinese</span>
+                  <span>Japanese</span>
+                  <span>Korean</span>
+                  <span>Hindi</span>
+                  <span>Turkish</span>
+                  <span>Dutch</span>
+                  <span>Swedish</span>
+                  <span>Norwegian</span>
+                  <span>Danish</span>
+                  <span>Finnish</span>
+                  <span>Polish</span>
+                  <span>Czech</span>
+                  <span>Greek</span>
+                  <span>Hebrew</span>
+                  <span>Thai</span>
+                  <span>Indonesian</span>
+                  <span>Vietnamese</span>
+                  <span>Urdu</span>
+                  <span>Bengali</span>
+                  <span>Romanian</span>
+                  <span>Hungarian</span>
+                </div>
+              </div>
+            </section>
+            <section>
+              <h3>Writing</h3>
+              <div class="options">
+                <div>
+                  <input
+                    type="radio"
+                    id="poor"
+                    name="writing"
+                    data-choose="poor"
+                  />
+                  <label for="poor">Poor</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="good"
+                    name="writing"
+                    data-choose="good"
+                    checked
+                  />
+                  <label for="good">Good</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="excellent"
+                    name="writing"
+                    data-choose="excellent"
+                  />
+                  <label for="excellent">Excellent</label>
+                </div>
+              </div>
+            </section>
+            <section>
+              <h3>Understanding</h3>
+              <div class="options">
+                <div>
+                  <input
+                    type="radio"
+                    id="poor_understanding"
+                    name="understanding"
+                    data-choose="poor"
+                  />
+                  <label for="poor_understanding">Poor</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="good_understanding"
+                    name="understanding"
+                    data-choose="good"
+                    checked
+                  />
+                  <label for="good_understanding">Good</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="excellent_understanding"
+                    name="understanding"
+                    data-choose="excellent"
+                  />
+                  <label for="excellent_understanding">Excellent</label>
+                </div>
+              </div>
+            </section>
+            <section>
+              <h3>Speaking</h3>
+              <div class="options">
+                <div>
+                  <input
+                    type="radio"
+                    id="poor_speaking"
+                    name="speaking"
+                    data-choose="poor"
+                  />
+                  <label for="poor_speaking">Poor</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="good_speaking"
+                    name="speaking"
+                    data-choose="good"
+                    checked
+                  />
+                  <label for="good_speaking">Good</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="excellent_speaking"
+                    name="speaking"
+                    data-choose="excellent"
+                  />
+                  <label for="excellent_speaking">Excellent</label>
+                </div>
+              </div>
+            </section>
+            <section class="actions">
+              <button
+                id="add_known_language"
+                class="add_known_language primary_btn_popups"
+              >
+                ADD
+              </button>
+              <button
+                class="cancel cancel_btn_popups"
+                id="cancel_add_new_known_language"
+              >
+                CANCEL
+              </button>
+            </section>
+          </form>
+        </div>
+      </div>
+      <div class="toast_message"></div>
+    </div>
+
+    <script type="module" src="/modules/EmployeeDetails.js"></script>
+    <script type="module" src="modules/Search.js"></script>
+    <script type="module" src="modules/InitializeEmployeeDetails.js"></script>
+    <script type="module" src="modules/Update_employee_info.js"></script>
+    <script type="module" src="modules/Known_language_popup.js"></script>
+    <script
+      type="module"
+      src="modules/Employee Details Modules/get_knowlage_language_data.js"
+    ></script>
+    <script
+      type="module"
+      src="modules/Employee Details Modules/Loading&Complete_showing.js"
+    ></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/popper.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6901 @@
+[
+  {
+    "id": 1,
+    "first_name": "Omar",
+    "last_name": "Samir",
+    "status": "Active",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 1.png",
+    "email": "omar.samir1@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Montaza",
+      "address": "259 Bell Via Apt. 733, North Allisonstad, KY 20133",
+      "state": "Illinois",
+      "country": "Congo"
+    },
+    "contact_number": "01014561394",
+    "birthday": "Jul 08, 1996",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "UX Designer",
+    "productive": "58",
+    "joining_date": "2020-12-19",
+    "salary": "7409",
+    "work_type": "WFO",
+    "zip_code": "31426",
+    "gender": "Male",
+    "nationality": "Philippines",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "PTF Bank",
+      "account_number": "1759 9293 9303 4665",
+      "ifsc_code": "IFSC2492",
+      "pan_number": "PAN8855"
+    },
+    "education": [
+      {
+        "title": "Primary school teacher",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Designer, blown glass/stained glass",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "first_name": "Ahmed",
+    "last_name": "Samir",
+    "status": "Active",
+    "job_title": "Customer Support",
+    "category": "Support Team",
+    "profile_image": "users/user 2.png",
+    "email": "ahmed.samir2@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "Haram",
+      "address": "40973 Moss Overpass Apt. 529, West Brittneyton, AR 80140",
+      "state": "New Mexico",
+      "country": "New Caledonia"
+    },
+    "contact_number": "01282796016",
+    "birthday": "Oct 05, 2000",
+    "type": "Experience",
+    "team_leader": {
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "Customer Support",
+    "productive": "94",
+    "joining_date": "2021-09-20",
+    "salary": "4221",
+    "work_type": "WFH",
+    "zip_code": "38074",
+    "gender": "Male",
+    "nationality": "Western Sahara",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "SDY Bank",
+      "account_number": "7609 4934 9240 9455",
+      "ifsc_code": "IFSC4383",
+      "pan_number": "PAN4578"
+    },
+    "education": [
+      {
+        "title": "Psychotherapist, dance movement",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Consulting civil engineer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "first_name": "Mostafa",
+    "last_name": "Khaled",
+    "status": "Inactive",
+    "job_title": "React JS Developer",
+    "category": "Developer",
+    "profile_image": "users/user 3.png",
+    "email": "mostafa.khaled3@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Esna",
+      "address": "Unit 4366 Box 5711, DPO AP 90577",
+      "state": "New York",
+      "country": "Liechtenstein"
+    },
+    "contact_number": "01129462131",
+    "birthday": "Feb 10, 1996",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "React JS Developer",
+    "productive": "51",
+    "joining_date": "2020-07-31",
+    "salary": "7430",
+    "work_type": "WFH",
+    "zip_code": "49959",
+    "gender": "Male",
+    "nationality": "Seychelles",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Poor",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "WKB Bank",
+      "account_number": "1866 1477 8921 1881",
+      "ifsc_code": "IFSC9883",
+      "pan_number": "PAN3608"
+    },
+    "education": [
+      {
+        "title": "Water quality scientist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Optician, dispensing",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "first_name": "Nour",
+    "last_name": "Khaled",
+    "status": "Inactive",
+    "job_title": "UI Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 4.png",
+    "email": "nour.khaled4@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Sidi Gaber",
+      "address": "54380 Emily Heights, Lisamouth, AR 94599",
+      "state": "North Carolina",
+      "country": "Congo"
+    },
+    "contact_number": "01259565894",
+    "birthday": "May 15, 1989",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "UI Designer",
+    "productive": "72",
+    "joining_date": "2023-05-07",
+    "salary": "6932",
+    "work_type": "WFO",
+    "zip_code": "22224",
+    "gender": "Male",
+    "nationality": "Malta",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "PLW Bank",
+      "account_number": "4855 9795 7403 1332",
+      "ifsc_code": "IFSC5918",
+      "pan_number": "PAN4879"
+    },
+    "education": [
+      {
+        "title": "Hydrologist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Herbalist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "first_name": "Karim",
+    "last_name": "Ali",
+    "status": "Active",
+    "job_title": "Senior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 5.png",
+    "email": "karim.ali5@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Maadi",
+      "address": "568 Stephen Burg Apt. 535, North Stephenstad, NV 23290",
+      "state": "California",
+      "country": "Belize"
+    },
+    "contact_number": "01026505858",
+    "birthday": "Jun 16, 1993",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "Senior Accountant",
+    "productive": "53",
+    "joining_date": "2020-08-05",
+    "salary": "6511",
+    "work_type": "WFO",
+    "zip_code": "14059",
+    "gender": "Male",
+    "nationality": "Cyprus",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "FRB Bank",
+      "account_number": "3519 2280 1062 5831",
+      "ifsc_code": "IFSC4607",
+      "pan_number": "PAN1529"
+    },
+    "education": [
+      {
+        "title": "Horticulturist, amenity",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Chartered certified accountant",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "first_name": "Mona",
+    "last_name": "Tamer",
+    "status": "Active",
+    "job_title": "Technical Support",
+    "category": "Support Team",
+    "profile_image": "users/user 6.png",
+    "email": "mona.tamer6@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Heliopolis",
+      "address": "687 Martin Falls, Port Joanna, WY 48075",
+      "state": "Oklahoma",
+      "country": "Faroe Islands"
+    },
+    "contact_number": "01219292540",
+    "birthday": "Jun 25, 1996",
+    "type": "Experience",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "Technical Support",
+    "productive": "54",
+    "joining_date": "2021-11-04",
+    "salary": "6153",
+    "work_type": "WFH",
+    "zip_code": "26717",
+    "gender": "Female",
+    "nationality": "Aruba",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "HRG Bank",
+      "account_number": "4833 4824 8184 8104",
+      "ifsc_code": "IFSC8721",
+      "pan_number": "PAN1338"
+    },
+    "education": [
+      {
+        "title": "Broadcast presenter",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Production assistant, television",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "first_name": "Nour",
+    "last_name": "Hany",
+    "status": "Inactive",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 7.png",
+    "email": "nour.hany7@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Sidi Gaber",
+      "address": "989 Aaron Mountain, Matthewbury, AK 09574",
+      "state": "Utah",
+      "country": "Antigua and Barbuda"
+    },
+    "contact_number": "01032337961",
+    "birthday": "Oct 01, 1995",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "UX Designer",
+    "productive": "60",
+    "joining_date": "2023-05-31",
+    "salary": "6269",
+    "work_type": "WFH",
+    "zip_code": "46508",
+    "gender": "Female",
+    "nationality": "Korea",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "JSB Bank",
+      "account_number": "7493 6895 9063 6518",
+      "ifsc_code": "IFSC5776",
+      "pan_number": "PAN2682"
+    },
+    "education": [
+      {
+        "title": "Dispensing optician",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Forensic psychologist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "first_name": "Mostafa",
+    "last_name": "Kamal",
+    "status": "Active",
+    "job_title": "Training Coordinator",
+    "category": "HR Manager",
+    "profile_image": "users/user 8.png",
+    "email": "mostafa.kamal8@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "2412 Watkins Stream, Miguelburgh, SC 47931",
+      "state": "Maryland",
+      "country": "Barbados"
+    },
+    "contact_number": "01249438455",
+    "birthday": "Feb 14, 1985",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "Training Coordinator",
+    "productive": "52",
+    "joining_date": "2022-01-05",
+    "salary": "8202",
+    "work_type": "WFO",
+    "zip_code": "13525",
+    "gender": "Female",
+    "nationality": "Spain",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "HGN Bank",
+      "account_number": "6716 4337 4412 3316",
+      "ifsc_code": "IFSC7400",
+      "pan_number": "PAN8841"
+    },
+    "education": [
+      {
+        "title": "Barrister's clerk",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Nurse, learning disability",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "first_name": "Mona",
+    "last_name": "Adel",
+    "status": "Inactive",
+    "job_title": "Customer Support",
+    "category": "Support Team",
+    "profile_image": "users/user 9.png",
+    "email": "mona.adel9@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Maadi",
+      "address": "017 Brittany Dale, South Edgarview, LA 63728",
+      "state": "Maryland",
+      "country": "Albania"
+    },
+    "contact_number": "01171075119",
+    "birthday": "Jul 30, 1995",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "Customer Support",
+    "productive": "95",
+    "joining_date": "2021-01-31",
+    "salary": "6669",
+    "work_type": "WFO",
+    "zip_code": "22558",
+    "gender": "Female",
+    "nationality": "Korea",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "SFP Bank",
+      "account_number": "1046 9237 8605 6014",
+      "ifsc_code": "IFSC9237",
+      "pan_number": "PAN2321"
+    },
+    "education": [
+      {
+        "title": "Psychologist, educational",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Personal assistant",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "first_name": "Omar",
+    "last_name": "Hany",
+    "status": "Inactive",
+    "job_title": "Senior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 10.png",
+    "email": "omar.hany10@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Smouha",
+      "address": "9948 Barbara Shoal, South Isaacmouth, ND 29752",
+      "state": "South Carolina",
+      "country": "Guinea"
+    },
+    "contact_number": "01161239539",
+    "birthday": "May 18, 1997",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "Senior Accountant",
+    "productive": "70",
+    "joining_date": "2022-07-16",
+    "salary": "5094",
+    "work_type": "WFH",
+    "zip_code": "41770",
+    "gender": "Male",
+    "nationality": "Algeria",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "MHB Bank",
+      "account_number": "3362 4462 1756 5104",
+      "ifsc_code": "IFSC4778",
+      "pan_number": "PAN1348"
+    },
+    "education": [
+      {
+        "title": "Development worker, international aid",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Furniture conservator/restorer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "first_name": "Nour",
+    "last_name": "Ali",
+    "status": "Active",
+    "job_title": "Senior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 11.png",
+    "email": "nour.ali11@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Esna",
+      "address": "950 Miller Hollow, Yvetteborough, MA 38195",
+      "state": "New Hampshire",
+      "country": "United States Minor Outlying Islands"
+    },
+    "contact_number": "01002534324",
+    "birthday": "Nov 09, 2000",
+    "type": "Experience",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "Senior Accountant",
+    "productive": "75",
+    "joining_date": "2022-10-15",
+    "salary": "5843",
+    "work_type": "WFO",
+    "zip_code": "40763",
+    "gender": "Female",
+    "nationality": "Togo",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "MGB Bank",
+      "account_number": "5279 2043 2053 6796",
+      "ifsc_code": "IFSC3469",
+      "pan_number": "PAN5004"
+    },
+    "education": [
+      {
+        "title": "Restaurant manager, fast food",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Cartographer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "first_name": "Karim",
+    "last_name": "Samir",
+    "status": "Inactive",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 12.png",
+    "email": "karim.samir12@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Esna",
+      "address": "1223 Troy Lane Apt. 419, Maryview, AL 15768",
+      "state": "Arizona",
+      "country": "Jordan"
+    },
+    "contact_number": "01027449012",
+    "birthday": "Sep 27, 1988",
+    "type": "Experience",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "UX Designer",
+    "productive": "61",
+    "joining_date": "2021-03-09",
+    "salary": "7319",
+    "work_type": "WFO",
+    "zip_code": "19138",
+    "gender": "Female",
+    "nationality": "Christmas Island",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "PCB Bank",
+      "account_number": "8461 2038 6715 9669",
+      "ifsc_code": "IFSC3782",
+      "pan_number": "PAN2025"
+    },
+    "education": [
+      {
+        "title": "Oncologist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Chiropractor",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "first_name": "Karim",
+    "last_name": "Tamer",
+    "status": "Inactive",
+    "job_title": "Customer Support",
+    "category": "Support Team",
+    "profile_image": "users/user 13.png",
+    "email": "karim.tamer13@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Heliopolis",
+      "address": "812 John Alley, New Brianberg, IL 57711",
+      "state": "Oklahoma",
+      "country": "Niger"
+    },
+    "contact_number": "01165641356",
+    "birthday": "Sep 08, 1994",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "Customer Support",
+    "productive": "66",
+    "joining_date": "2021-07-24",
+    "salary": "7899",
+    "work_type": "WFH",
+    "zip_code": "47375",
+    "gender": "Female",
+    "nationality": "Aruba",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "FMB Bank",
+      "account_number": "6753 8718 9462 5208",
+      "ifsc_code": "IFSC7749",
+      "pan_number": "PAN7908"
+    },
+    "education": [
+      {
+        "title": "Surveyor, insurance",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Administrator, Civil Service",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "first_name": "Lina",
+    "last_name": "Kamal",
+    "status": "Inactive",
+    "job_title": "Technical Support",
+    "category": "Support Team",
+    "profile_image": "users/user 14.png",
+    "email": "lina.kamal14@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Armant",
+      "address": "166 Bates Pass Suite 953, Port Jasonton, DE 24988",
+      "state": "Iowa",
+      "country": "Uzbekistan"
+    },
+    "contact_number": "01090622816",
+    "birthday": "Jul 17, 1986",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "Technical Support",
+    "productive": "67",
+    "joining_date": "2022-06-17",
+    "salary": "6498",
+    "work_type": "WFH",
+    "zip_code": "36146",
+    "gender": "Female",
+    "nationality": "Macao",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "WJW Bank",
+      "account_number": "6573 6490 8785 4753",
+      "ifsc_code": "IFSC6399",
+      "pan_number": "PAN6154"
+    },
+    "education": [
+      {
+        "title": "Broadcast journalist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Stage manager",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "first_name": "Omar",
+    "last_name": "Tamer",
+    "status": "Inactive",
+    "job_title": "Customer Support",
+    "category": "Support Team",
+    "profile_image": "users/user 15.png",
+    "email": "omar.tamer15@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "October",
+      "address": "707 Williams Common, South Robert, MA 89564",
+      "state": "Utah",
+      "country": "Australia"
+    },
+    "contact_number": "01236308378",
+    "birthday": "Jun 26, 1987",
+    "type": "Experience",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "Customer Support",
+    "productive": "81",
+    "joining_date": "2022-01-30",
+    "salary": "5036",
+    "work_type": "WFO",
+    "zip_code": "37939",
+    "gender": "Female",
+    "nationality": "Maldives",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "B Bank",
+      "account_number": "4237 5910 2167 9807",
+      "ifsc_code": "IFSC7308",
+      "pan_number": "PAN7787"
+    },
+    "education": [
+      {
+        "title": "Designer, industrial/product",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Doctor, general practice",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "first_name": "Nour",
+    "last_name": "Kamal",
+    "status": "Inactive",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 16.png",
+    "email": "nour.kamal16@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "Unit 5398 Box 1172, DPO AA 86575",
+      "state": "Illinois",
+      "country": "Brunei Darussalam"
+    },
+    "contact_number": "01063238270",
+    "birthday": "Oct 30, 1998",
+    "type": "Experience",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "UX Designer",
+    "productive": "98",
+    "joining_date": "2022-09-19",
+    "salary": "3447",
+    "work_type": "WFH",
+    "zip_code": "25577",
+    "gender": "Female",
+    "nationality": "Comoros",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "AB Bank",
+      "account_number": "1178 3416 1283 5059",
+      "ifsc_code": "IFSC1071",
+      "pan_number": "PAN3206"
+    },
+    "education": [
+      {
+        "title": "Archivist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Copy",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "first_name": "Mostafa",
+    "last_name": "Adel",
+    "status": "Inactive",
+    "job_title": "Technical Support",
+    "category": "Support Team",
+    "profile_image": "users/user 17.png",
+    "email": "mostafa.adel17@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Esna",
+      "address": "70945 Miller Track, Carterville, SC 75803",
+      "state": "Michigan",
+      "country": "Myanmar"
+    },
+    "contact_number": "01114312538",
+    "birthday": "Jan 15, 1989",
+    "type": "Experience",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "Technical Support",
+    "productive": "76",
+    "joining_date": "2020-11-25",
+    "salary": "9310",
+    "work_type": "WFO",
+    "zip_code": "42525",
+    "gender": "Male",
+    "nationality": "Cambodia",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "DWB Bank",
+      "account_number": "1402 7889 1705 2832",
+      "ifsc_code": "IFSC6424",
+      "pan_number": "PAN4929"
+    },
+    "education": [
+      {
+        "title": "Advertising account planner",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Armed forces logistics/support/administrative officer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "first_name": "Mostafa",
+    "last_name": "Adel",
+    "status": "Active",
+    "job_title": "Technical Support",
+    "category": "Support Team",
+    "profile_image": "users/user 18.png",
+    "email": "mostafa.adel18@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "October",
+      "address": "775 Karen Plains, North Wanda, ID 03927",
+      "state": "Virginia",
+      "country": "Liberia"
+    },
+    "contact_number": "01108667665",
+    "birthday": "Feb 25, 1988",
+    "type": "Experience",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "Technical Support",
+    "productive": "90",
+    "joining_date": "2022-11-16",
+    "salary": "8912",
+    "work_type": "WFH",
+    "zip_code": "30266",
+    "gender": "Female",
+    "nationality": "Monaco",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "RMB Bank",
+      "account_number": "2793 9538 3961 7391",
+      "ifsc_code": "IFSC5810",
+      "pan_number": "PAN7891"
+    },
+    "education": [
+      {
+        "title": "Buyer, retail",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Musician",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "first_name": "Mostafa",
+    "last_name": "Adel",
+    "status": "Active",
+    "job_title": "Junior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 19.png",
+    "email": "mostafa.adel19@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Esna",
+      "address": "425 Tony Islands Suite 392, South Nataliefurt, NV 14289",
+      "state": "North Dakota",
+      "country": "Israel"
+    },
+    "contact_number": "01288002870",
+    "birthday": "Sep 26, 1989",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "Junior Accountant",
+    "productive": "76",
+    "joining_date": "2023-01-08",
+    "salary": "7132",
+    "work_type": "WFH",
+    "zip_code": "18903",
+    "gender": "Female",
+    "nationality": "Nauru",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "AGB Bank",
+      "account_number": "3967 7675 9053 4777",
+      "ifsc_code": "IFSC8777",
+      "pan_number": "PAN8903"
+    },
+    "education": [
+      {
+        "title": "Facilities manager",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Animator",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "first_name": "Mostafa",
+    "last_name": "Adel",
+    "status": "Active",
+    "job_title": "Junior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 20.png",
+    "email": "mostafa.adel20@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "2107 Williams Cape, West Katie, AL 51828",
+      "state": "Louisiana",
+      "country": "Panama"
+    },
+    "contact_number": "01128490793",
+    "birthday": "Jul 22, 1992",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 1,
+      "name": "Lina T.",
+      "image": "/users/team_leader 1.png"
+    },
+    "role": "Junior Accountant",
+    "productive": "78",
+    "joining_date": "2023-02-13",
+    "salary": "6430",
+    "work_type": "WFH",
+    "zip_code": "13220",
+    "gender": "Female",
+    "nationality": "Libyan Arab Jamahiriya",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "HB Bank",
+      "account_number": "2285 4661 2045 7984",
+      "ifsc_code": "IFSC6431",
+      "pan_number": "PAN8567"
+    },
+    "education": [
+      {
+        "title": "Fisheries officer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Transport planner",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "first_name": "Mona",
+    "last_name": "Tamer",
+    "status": "Inactive",
+    "job_title": "Mobile App Developer",
+    "category": "Developer",
+    "profile_image": "users/user 2.png",
+    "email": "mona.tamer21@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Maadi",
+      "address": "139 Barr Island, Bobborough, KS 15872",
+      "state": "Oklahoma",
+      "country": "Liechtenstein"
+    },
+    "contact_number": "01070560397",
+    "birthday": "Apr 29, 1998",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Mobile App Developer",
+    "productive": "84",
+    "joining_date": "2020-08-30",
+    "salary": "8187",
+    "work_type": "WFO",
+    "zip_code": "44772",
+    "gender": "Male",
+    "nationality": "Cote d'Ivoire",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "SGB Bank",
+      "account_number": "1294 8833 2862 6940",
+      "ifsc_code": "IFSC7379",
+      "pan_number": "PAN7448"
+    },
+    "education": [
+      {
+        "title": "Publishing copy",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Theme park manager",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "first_name": "Karim",
+    "last_name": "Samir",
+    "status": "Inactive",
+    "job_title": "Mobile App Developer",
+    "category": "Developer",
+    "profile_image": "users/user 3.png",
+    "email": "karim.samir22@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Edfu",
+      "address": "86576 Jones Fields, Leeton, ND 08731",
+      "state": "Delaware",
+      "country": "Christmas Island"
+    },
+    "contact_number": "01065366013",
+    "birthday": "Apr 04, 1986",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Mobile App Developer",
+    "productive": "87",
+    "joining_date": "2022-07-29",
+    "salary": "9680",
+    "work_type": "WFH",
+    "zip_code": "29532",
+    "gender": "Male",
+    "nationality": "Switzerland",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "PLB Bank",
+      "account_number": "7134 2427 3027 8471",
+      "ifsc_code": "IFSC4366",
+      "pan_number": "PAN2418"
+    },
+    "education": [
+      {
+        "title": "Therapeutic radiographer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Commissioning editor",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "first_name": "Ahmed",
+    "last_name": "Kamal",
+    "status": "Inactive",
+    "job_title": "Frontend Developer",
+    "category": "Developer",
+    "profile_image": "users/user 4.png",
+    "email": "ahmed.kamal23@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "024 Lee Lights, South Elizabeth, NV 40031",
+      "state": "Illinois",
+      "country": "Slovakia (Slovak Republic)"
+    },
+    "contact_number": "01297094644",
+    "birthday": "Oct 30, 1997",
+    "type": "Experience",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Frontend Developer",
+    "productive": "78",
+    "joining_date": "2022-07-18",
+    "salary": "8449",
+    "work_type": "WFH",
+    "zip_code": "23346",
+    "gender": "Female",
+    "nationality": "Germany",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "KHG Bank",
+      "account_number": "4576 6605 7138 2618",
+      "ifsc_code": "IFSC2226",
+      "pan_number": "PAN2873"
+    },
+    "education": [
+      {
+        "title": "Engineer, civil (consulting)",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Tourist information centre manager",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "first_name": "Lina",
+    "last_name": "Mostafa",
+    "status": "Active",
+    "job_title": "Senior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 1.png",
+    "email": "lina.mostafa24@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Edfu",
+      "address": "USNS Lin, FPO AP 66090",
+      "state": "Arkansas",
+      "country": "Tanzania"
+    },
+    "contact_number": "01256032740",
+    "birthday": "May 05, 1994",
+    "type": "Experience",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Senior Accountant",
+    "productive": "56",
+    "joining_date": "2022-04-23",
+    "salary": "7967",
+    "work_type": "WFH",
+    "zip_code": "43297",
+    "gender": "Female",
+    "nationality": "Martinique",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Poor",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "CWB Bank",
+      "account_number": "7110 6873 1468 5611",
+      "ifsc_code": "IFSC4792",
+      "pan_number": "PAN1530"
+    },
+    "education": [
+      {
+        "title": "Leisure centre manager",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Chief Financial Officer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "first_name": "Mona",
+    "last_name": "Ali",
+    "status": "Active",
+    "job_title": "Recruitment Specialist",
+    "category": "HR Manager",
+    "profile_image": "users/user 5.png",
+    "email": "mona.ali25@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Edfu",
+      "address": "45957 Kaitlin Expressway Apt. 279, North Shawn, ND 86722",
+      "state": "Missouri",
+      "country": "Malawi"
+    },
+    "contact_number": "01179307830",
+    "birthday": "Nov 20, 1991",
+    "type": "Experience",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Recruitment Specialist",
+    "productive": "74",
+    "joining_date": "2022-11-16",
+    "salary": "7195",
+    "work_type": "WFH",
+    "zip_code": "36086",
+    "gender": "Female",
+    "nationality": "Equatorial Guinea",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "CRB Bank",
+      "account_number": "1661 7000 7196 1802",
+      "ifsc_code": "IFSC6618",
+      "pan_number": "PAN2535"
+    },
+    "education": [
+      {
+        "title": "Exercise physiologist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Toxicologist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "first_name": "Mona",
+    "last_name": "Fathy",
+    "status": "Inactive",
+    "job_title": "Recruitment Specialist",
+    "category": "HR Manager",
+    "profile_image": "users/user 6.png",
+    "email": "mona.fathy26@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Kom Ombo",
+      "address": "577 Melissa Heights Suite 264, Ernesttown, AK 33892",
+      "state": "Vermont",
+      "country": "Portugal"
+    },
+    "contact_number": "01290346327",
+    "birthday": "Apr 28, 1988",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Recruitment Specialist",
+    "productive": "62",
+    "joining_date": "2021-02-09",
+    "salary": "5875",
+    "work_type": "WFH",
+    "zip_code": "16429",
+    "gender": "Female",
+    "nationality": "Estonia",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "RIB Bank",
+      "account_number": "6212 6311 2076 3763",
+      "ifsc_code": "IFSC7325",
+      "pan_number": "PAN8905"
+    },
+    "education": [
+      {
+        "title": "Engineer, manufacturing systems",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Professor Emeritus",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "first_name": "Lina",
+    "last_name": "Hany",
+    "status": "Active",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 7.png",
+    "email": "lina.hany27@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "PSC 9825, Box 1102, APO AA 31878",
+      "state": "Ohio",
+      "country": "Tonga"
+    },
+    "contact_number": "01139918058",
+    "birthday": "May 26, 1994",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "UX Designer",
+    "productive": "80",
+    "joining_date": "2020-10-21",
+    "salary": "6914",
+    "work_type": "WFH",
+    "zip_code": "37932",
+    "gender": "Male",
+    "nationality": "Iran",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "VWB Bank",
+      "account_number": "7239 2274 8508 9476",
+      "ifsc_code": "IFSC6353",
+      "pan_number": "PAN9528"
+    },
+    "education": [
+      {
+        "title": "Pilot, airline",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Conservation officer, historic buildings",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "first_name": "Lina",
+    "last_name": "Samir",
+    "status": "Active",
+    "job_title": "Backend Developer",
+    "category": "Developer",
+    "profile_image": "users/user 8.png",
+    "email": "lina.samir28@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Esna",
+      "address": "PSC 3825, Box 1173, APO AA 55543",
+      "state": "Rhode Island",
+      "country": "Eritrea"
+    },
+    "contact_number": "01025604301",
+    "birthday": "Dec 25, 1990",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Backend Developer",
+    "productive": "51",
+    "joining_date": "2021-01-15",
+    "salary": "3845",
+    "work_type": "WFO",
+    "zip_code": "18493",
+    "gender": "Female",
+    "nationality": "Cambodia",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "BWR Bank",
+      "account_number": "9692 7972 2853 3454",
+      "ifsc_code": "IFSC7077",
+      "pan_number": "PAN7619"
+    },
+    "education": [
+      {
+        "title": "Insurance account manager",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Secondary school teacher",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "first_name": "Mostafa",
+    "last_name": "Fathy",
+    "status": "Active",
+    "job_title": "Frontend Developer",
+    "category": "Developer",
+    "profile_image": "users/user 9.png",
+    "email": "mostafa.fathy29@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Edfu",
+      "address": "24682 Lori Corner Apt. 379, Amandashire, TX 41572",
+      "state": "New York",
+      "country": "Lebanon"
+    },
+    "contact_number": "01222795868",
+    "birthday": "Apr 14, 1997",
+    "type": "Experience",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Frontend Developer",
+    "productive": "71",
+    "joining_date": "2023-09-21",
+    "salary": "3060",
+    "work_type": "WFH",
+    "zip_code": "45668",
+    "gender": "Male",
+    "nationality": "Congo",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "CBB Bank",
+      "account_number": "9198 1863 4464 2883",
+      "ifsc_code": "IFSC1169",
+      "pan_number": "PAN5050"
+    },
+    "education": [
+      {
+        "title": "Development worker, international aid",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Animal technologist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "first_name": "Mona",
+    "last_name": "Adel",
+    "status": "Inactive",
+    "job_title": "Frontend Developer",
+    "category": "Developer",
+    "profile_image": "users/user 10.png",
+    "email": "mona.adel30@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Kom Ombo",
+      "address": "704 Humphrey Isle, Lauramouth, NV 98143",
+      "state": "Massachusetts",
+      "country": "Bouvet Island (Bouvetoya)"
+    },
+    "contact_number": "01055231559",
+    "birthday": "Jul 17, 1993",
+    "type": "Experience",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Frontend Developer",
+    "productive": "73",
+    "joining_date": "2020-04-12",
+    "salary": "8281",
+    "work_type": "WFO",
+    "zip_code": "17277",
+    "gender": "Female",
+    "nationality": "Guinea",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "CRR Bank",
+      "account_number": "5570 5362 9308 7602",
+      "ifsc_code": "IFSC6396",
+      "pan_number": "PAN1945"
+    },
+    "education": [
+      {
+        "title": "Publishing copy",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Research officer, government",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "first_name": "Omar",
+    "last_name": "Ibrahim",
+    "status": "Inactive",
+    "job_title": "Backend Developer",
+    "category": "Developer",
+    "profile_image": "users/user 11.png",
+    "email": "omar.ibrahim31@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Sidi Gaber",
+      "address": "420 Nathaniel Courts Apt. 578, Joshuaville, IL 99875",
+      "state": "Kansas",
+      "country": "Iceland"
+    },
+    "contact_number": "01038013081",
+    "birthday": "Mar 22, 2000",
+    "type": "Experience",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Backend Developer",
+    "productive": "61",
+    "joining_date": "2023-11-18",
+    "salary": "3032",
+    "work_type": "WFO",
+    "zip_code": "26324",
+    "gender": "Male",
+    "nationality": "Maldives",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "PB Bank",
+      "account_number": "8855 6617 3303 6407",
+      "ifsc_code": "IFSC8290",
+      "pan_number": "PAN1302"
+    },
+    "education": [
+      {
+        "title": "Immigration officer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Therapist, speech and language",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "first_name": "Nour",
+    "last_name": "Ali",
+    "status": "Inactive",
+    "job_title": "Training Coordinator",
+    "category": "HR Manager",
+    "profile_image": "users/user 12.png",
+    "email": "nour.ali32@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "68595 Fuentes Glens Suite 050, Bushmouth, NV 76402",
+      "state": "Vermont",
+      "country": "Zimbabwe"
+    },
+    "contact_number": "01107994752",
+    "birthday": "Oct 20, 1986",
+    "type": "Experience",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Training Coordinator",
+    "productive": "75",
+    "joining_date": "2022-03-05",
+    "salary": "3915",
+    "work_type": "WFO",
+    "zip_code": "40243",
+    "gender": "Male",
+    "nationality": "Marshall Islands",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "MBB Bank",
+      "account_number": "1592 3092 6438 3922",
+      "ifsc_code": "IFSC7107",
+      "pan_number": "PAN4470"
+    },
+    "education": [
+      {
+        "title": "Magazine journalist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Museum education officer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "first_name": "Ahmed",
+    "last_name": "Mostafa",
+    "status": "Inactive",
+    "job_title": "Recruitment Specialist",
+    "category": "HR Manager",
+    "profile_image": "users/user 13.png",
+    "email": "ahmed.mostafa33@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Heliopolis",
+      "address": "093 Stephen Mountain Apt. 473, East Nathan, MO 72357",
+      "state": "Kentucky",
+      "country": "Kenya"
+    },
+    "contact_number": "01048805046",
+    "birthday": "Jul 19, 2000",
+    "type": "Experience",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Recruitment Specialist",
+    "productive": "95",
+    "joining_date": "2022-04-23",
+    "salary": "7266",
+    "work_type": "WFH",
+    "zip_code": "18145",
+    "gender": "Male",
+    "nationality": "Mozambique",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "CHW Bank",
+      "account_number": "8226 1093 4025 6402",
+      "ifsc_code": "IFSC5042",
+      "pan_number": "PAN2819"
+    },
+    "education": [
+      {
+        "title": "Special educational needs teacher",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Chartered legal executive (England and Wales)",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "first_name": "Omar",
+    "last_name": "Samir",
+    "status": "Active",
+    "job_title": "UI Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 14.png",
+    "email": "omar.samir34@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Armant",
+      "address": "259 Jodi Lodge Suite 202, Deniseport, VT 50887",
+      "state": "South Carolina",
+      "country": "British Virgin Islands"
+    },
+    "contact_number": "01077987508",
+    "birthday": "Jan 19, 1991",
+    "type": "Experience",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "UI Designer",
+    "productive": "60",
+    "joining_date": "2023-05-26",
+    "salary": "7261",
+    "work_type": "WFO",
+    "zip_code": "17312",
+    "gender": "Male",
+    "nationality": "Cyprus",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Poor",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "NJH Bank",
+      "account_number": "9198 4210 4789 2748",
+      "ifsc_code": "IFSC7689",
+      "pan_number": "PAN8705"
+    },
+    "education": [
+      {
+        "title": "Fish farm manager",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "IT trainer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "first_name": "Ahmed",
+    "last_name": "Mostafa",
+    "status": "Inactive",
+    "job_title": "Senior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 15.png",
+    "email": "ahmed.mostafa35@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Kom Ombo",
+      "address": "409 Bradley Ramp Apt. 715, West Dianatown, LA 23699",
+      "state": "Washington",
+      "country": "Monaco"
+    },
+    "contact_number": "01148362143",
+    "birthday": "Sep 09, 2002",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Senior Accountant",
+    "productive": "93",
+    "joining_date": "2023-05-29",
+    "salary": "4802",
+    "work_type": "WFH",
+    "zip_code": "40909",
+    "gender": "Male",
+    "nationality": "Macedonia",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "PSB Bank",
+      "account_number": "6775 7632 4532 7370",
+      "ifsc_code": "IFSC4289",
+      "pan_number": "PAN8783"
+    },
+    "education": [
+      {
+        "title": "Psychotherapist, child",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Lecturer, further education",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "first_name": "Sara",
+    "last_name": "Tamer",
+    "status": "Inactive",
+    "job_title": "Training Coordinator",
+    "category": "HR Manager",
+    "profile_image": "users/user 16.png",
+    "email": "sara.tamer36@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "Dokki",
+      "address": "5199 Thomas Land, West Julianstad, TX 09265",
+      "state": "Maine",
+      "country": "San Marino"
+    },
+    "contact_number": "01200583127",
+    "birthday": "Oct 06, 1990",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Training Coordinator",
+    "productive": "53",
+    "joining_date": "2023-02-01",
+    "salary": "6367",
+    "work_type": "WFH",
+    "zip_code": "40281",
+    "gender": "Male",
+    "nationality": "Germany",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "MFW Bank",
+      "account_number": "5695 7807 5140 7339",
+      "ifsc_code": "IFSC2812",
+      "pan_number": "PAN3615"
+    },
+    "education": [
+      {
+        "title": "Records manager",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Event organiser",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "first_name": "Mona",
+    "last_name": "Adel",
+    "status": "Inactive",
+    "job_title": "Customer Support",
+    "category": "Support Team",
+    "profile_image": "users/user 17.png",
+    "email": "mona.adel37@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "4399 Joseph Bridge Apt. 877, South Aaron, TN 58598",
+      "state": "North Dakota",
+      "country": "Nigeria"
+    },
+    "contact_number": "01004549593",
+    "birthday": "Dec 21, 1998",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Customer Support",
+    "productive": "53",
+    "joining_date": "2023-12-06",
+    "salary": "8600",
+    "work_type": "WFH",
+    "zip_code": "44899",
+    "gender": "Female",
+    "nationality": "Cocos (Keeling) Islands",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "MLB Bank",
+      "account_number": "6364 8601 1510 2513",
+      "ifsc_code": "IFSC5410",
+      "pan_number": "PAN3949"
+    },
+    "education": [
+      {
+        "title": "Primary school teacher",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Senior tax professional/tax inspector",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "first_name": "Lina",
+    "last_name": "Kamal",
+    "status": "Active",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 18.png",
+    "email": "lina.kamal38@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Armant",
+      "address": "483 Graham Track Suite 533, West Teresafurt, SD 57392",
+      "state": "South Dakota",
+      "country": "Mauritius"
+    },
+    "contact_number": "01289980163",
+    "birthday": "Mar 19, 1989",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "UX Designer",
+    "productive": "83",
+    "joining_date": "2020-06-19",
+    "salary": "3999",
+    "work_type": "WFO",
+    "zip_code": "20939",
+    "gender": "Male",
+    "nationality": "Panama",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "HSK Bank",
+      "account_number": "6060 1334 2113 4751",
+      "ifsc_code": "IFSC6736",
+      "pan_number": "PAN8019"
+    },
+    "education": [
+      {
+        "title": "Tree surgeon",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Scientist, research (life sciences)",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "first_name": "Karim",
+    "last_name": "Adel",
+    "status": "Active",
+    "job_title": "Customer Support",
+    "category": "Support Team",
+    "profile_image": "users/user 19.png",
+    "email": "karim.adel39@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "October",
+      "address": "73273 Hamilton Rest Apt. 381, Joelland, MI 46769",
+      "state": "Wyoming",
+      "country": "Ethiopia"
+    },
+    "contact_number": "01034796195",
+    "birthday": "Apr 14, 1987",
+    "type": "Experience",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Customer Support",
+    "productive": "100",
+    "joining_date": "2020-08-18",
+    "salary": "6212",
+    "work_type": "WFH",
+    "zip_code": "23743",
+    "gender": "Female",
+    "nationality": "Saint Pierre and Miquelon",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "LBB Bank",
+      "account_number": "4944 3264 4742 7775",
+      "ifsc_code": "IFSC1594",
+      "pan_number": "PAN9485"
+    },
+    "education": [
+      {
+        "title": "Publishing rights manager",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Engineer, energy",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "first_name": "Nour",
+    "last_name": "Adel",
+    "status": "Active",
+    "job_title": "Customer Support",
+    "category": "Support Team",
+    "profile_image": "users/user 20.png",
+    "email": "nour.adel40@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Edfu",
+      "address": "Unit 9192 Box 9535, DPO AP 01575",
+      "state": "New Mexico",
+      "country": "Portugal"
+    },
+    "contact_number": "01156933007",
+    "birthday": "Apr 13, 1993",
+    "type": "Experience",
+    "team_leader": {
+      "id": 2,
+      "name": "Omar S.",
+      "image": "/users/team_leader 2.png"
+    },
+    "role": "Customer Support",
+    "productive": "89",
+    "joining_date": "2023-06-29",
+    "salary": "6010",
+    "work_type": "WFH",
+    "zip_code": "12344",
+    "gender": "Male",
+    "nationality": "Turks and Caicos Islands",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "VRW Bank",
+      "account_number": "9787 8655 5785 4542",
+      "ifsc_code": "IFSC8462",
+      "pan_number": "PAN2341"
+    },
+    "education": [
+      {
+        "title": "Administrator, charities/voluntary organisations",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Research officer, political party",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "first_name": "Dina",
+    "last_name": "Samir",
+    "status": "Active",
+    "job_title": "Senior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 1.png",
+    "email": "dina.samir41@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "USNV Foster, FPO AE 58259",
+      "state": "New York",
+      "country": "Saudi Arabia"
+    },
+    "contact_number": "01115103017",
+    "birthday": "Jun 28, 1990",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Senior Accountant",
+    "productive": "70",
+    "joining_date": "2021-11-08",
+    "salary": "8367",
+    "work_type": "WFO",
+    "zip_code": "39429",
+    "gender": "Male",
+    "nationality": "Uzbekistan",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "BRB Bank",
+      "account_number": "1053 2142 8762 2889",
+      "ifsc_code": "IFSC5542",
+      "pan_number": "PAN2044"
+    },
+    "education": [
+      {
+        "title": "Designer, multimedia",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Stage manager",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "first_name": "Mona",
+    "last_name": "Adel",
+    "status": "Active",
+    "job_title": "Backend Developer",
+    "category": "Developer",
+    "profile_image": "users/user 2.png",
+    "email": "mona.adel42@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Maadi",
+      "address": "30729 Carlos Knolls Suite 889, West Shawn, LA 38658",
+      "state": "Rhode Island",
+      "country": "Mauritania"
+    },
+    "contact_number": "01105929523",
+    "birthday": "Feb 16, 1997",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Backend Developer",
+    "productive": "64",
+    "joining_date": "2020-01-30",
+    "salary": "6261",
+    "work_type": "WFH",
+    "zip_code": "17791",
+    "gender": "Female",
+    "nationality": "Angola",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "CAB Bank",
+      "account_number": "5878 9501 9985 7575",
+      "ifsc_code": "IFSC1553",
+      "pan_number": "PAN3462"
+    },
+    "education": [
+      {
+        "title": "Retail buyer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Photographer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "first_name": "Omar",
+    "last_name": "Fathy",
+    "status": "Active",
+    "job_title": "Senior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 3.png",
+    "email": "omar.fathy43@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "October",
+      "address": "012 Patterson Mountains Apt. 843, Lake Casey, AZ 36852",
+      "state": "Colorado",
+      "country": "Norway"
+    },
+    "contact_number": "01213106107",
+    "birthday": "Mar 27, 1985",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Senior Accountant",
+    "productive": "62",
+    "joining_date": "2021-08-06",
+    "salary": "9567",
+    "work_type": "WFH",
+    "zip_code": "31983",
+    "gender": "Female",
+    "nationality": "Wallis and Futuna",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "HBB Bank",
+      "account_number": "1548 5637 7604 7353",
+      "ifsc_code": "IFSC9328",
+      "pan_number": "PAN4050"
+    },
+    "education": [
+      {
+        "title": "Dramatherapist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Colour technologist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "first_name": "Hany",
+    "last_name": "Kamal",
+    "status": "Inactive",
+    "job_title": "Backend Developer",
+    "category": "Developer",
+    "profile_image": "users/user 4.png",
+    "email": "hany.kamal44@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "October",
+      "address": "024 Smith Mountains, New Calvinport, GA 20150",
+      "state": "Georgia",
+      "country": "British Virgin Islands"
+    },
+    "contact_number": "01090631853",
+    "birthday": "May 31, 2000",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Backend Developer",
+    "productive": "61",
+    "joining_date": "2021-03-03",
+    "salary": "6833",
+    "work_type": "WFO",
+    "zip_code": "40115",
+    "gender": "Female",
+    "nationality": "Turkey",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Poor",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "MHB Bank",
+      "account_number": "6200 7547 2098 8717",
+      "ifsc_code": "IFSC2772",
+      "pan_number": "PAN6641"
+    },
+    "education": [
+      {
+        "title": "Community arts worker",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Therapist, art",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "first_name": "Ahmed",
+    "last_name": "Kamal",
+    "status": "Active",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 5.png",
+    "email": "ahmed.kamal45@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Maadi",
+      "address": "18530 Antonio Corners, Seanfort, DE 28094",
+      "state": "Minnesota",
+      "country": "Ghana"
+    },
+    "contact_number": "01211468641",
+    "birthday": "Oct 05, 1997",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "UX Designer",
+    "productive": "81",
+    "joining_date": "2023-09-20",
+    "salary": "3077",
+    "work_type": "WFO",
+    "zip_code": "32107",
+    "gender": "Female",
+    "nationality": "Maldives",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "MLB Bank",
+      "account_number": "6078 9878 4471 1760",
+      "ifsc_code": "IFSC4433",
+      "pan_number": "PAN7119"
+    },
+    "education": [
+      {
+        "title": "Engineer, biomedical",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Social research officer, government",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "first_name": "Mona",
+    "last_name": "Samir",
+    "status": "Inactive",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 6.png",
+    "email": "mona.samir46@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Kom Ombo",
+      "address": "USS Davis, FPO AP 48696",
+      "state": "Rhode Island",
+      "country": "Iran"
+    },
+    "contact_number": "01064952621",
+    "birthday": "Sep 20, 1999",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "UX Designer",
+    "productive": "85",
+    "joining_date": "2021-11-10",
+    "salary": "6261",
+    "work_type": "WFH",
+    "zip_code": "38018",
+    "gender": "Female",
+    "nationality": "Uzbekistan",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "PB Bank",
+      "account_number": "6884 1055 1882 6017",
+      "ifsc_code": "IFSC5980",
+      "pan_number": "PAN2381"
+    },
+    "education": [
+      {
+        "title": "Chartered legal executive (England and Wales)",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Furniture designer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "first_name": "Nour",
+    "last_name": "Fathy",
+    "status": "Inactive",
+    "job_title": "Recruitment Specialist",
+    "category": "HR Manager",
+    "profile_image": "users/user 7.png",
+    "email": "nour.fathy47@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Esna",
+      "address": "79605 Cole Trace Apt. 223, Bryantstad, LA 34310",
+      "state": "Georgia",
+      "country": "Sudan"
+    },
+    "contact_number": "01116154571",
+    "birthday": "Sep 30, 1989",
+    "type": "Experience",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Recruitment Specialist",
+    "productive": "62",
+    "joining_date": "2023-11-13",
+    "salary": "3336",
+    "work_type": "WFO",
+    "zip_code": "37621",
+    "gender": "Male",
+    "nationality": "Eritrea",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "HBN Bank",
+      "account_number": "8238 2971 1436 4255",
+      "ifsc_code": "IFSC1770",
+      "pan_number": "PAN2481"
+    },
+    "education": [
+      {
+        "title": "Sports therapist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Conservation officer, historic buildings",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "first_name": "Dina",
+    "last_name": "Ibrahim",
+    "status": "Inactive",
+    "job_title": "Junior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 8.png",
+    "email": "dina.ibrahim48@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Smouha",
+      "address": "9784 Jessica Falls Suite 002, Sloanton, CO 15400",
+      "state": "Connecticut",
+      "country": "Solomon Islands"
+    },
+    "contact_number": "01204661682",
+    "birthday": "Jul 28, 1985",
+    "type": "Experience",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Junior Accountant",
+    "productive": "52",
+    "joining_date": "2023-04-01",
+    "salary": "8586",
+    "work_type": "WFH",
+    "zip_code": "36595",
+    "gender": "Male",
+    "nationality": "Cote d'Ivoire",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "CIB Bank",
+      "account_number": "8701 5925 5897 3078",
+      "ifsc_code": "IFSC1902",
+      "pan_number": "PAN6566"
+    },
+    "education": [
+      {
+        "title": "Nurse, learning disability",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Nutritional therapist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "first_name": "Mostafa",
+    "last_name": "Tamer",
+    "status": "Active",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 9.png",
+    "email": "mostafa.tamer49@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "October",
+      "address": "0718 Evan Tunnel, East David, TX 80185",
+      "state": "West Virginia",
+      "country": "Turks and Caicos Islands"
+    },
+    "contact_number": "01126353809",
+    "birthday": "Apr 10, 1994",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "UX Designer",
+    "productive": "74",
+    "joining_date": "2020-11-17",
+    "salary": "3032",
+    "work_type": "WFH",
+    "zip_code": "32914",
+    "gender": "Female",
+    "nationality": "Reunion",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Poor",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "TLC Bank",
+      "account_number": "8917 2443 5454 2626",
+      "ifsc_code": "IFSC2509",
+      "pan_number": "PAN6602"
+    },
+    "education": [
+      {
+        "title": "Fine artist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Engineer, manufacturing systems",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "first_name": "Dina",
+    "last_name": "Adel",
+    "status": "Inactive",
+    "job_title": "Training Coordinator",
+    "category": "HR Manager",
+    "profile_image": "users/user 10.png",
+    "email": "dina.adel50@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Heliopolis",
+      "address": "1827 Delgado Court, Andrewview, SC 94508",
+      "state": "Florida",
+      "country": "Sri Lanka"
+    },
+    "contact_number": "01017447751",
+    "birthday": "Apr 30, 1990",
+    "type": "Experience",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Training Coordinator",
+    "productive": "50",
+    "joining_date": "2022-03-07",
+    "salary": "5250",
+    "work_type": "WFH",
+    "zip_code": "48832",
+    "gender": "Male",
+    "nationality": "Tajikistan",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "PWR Bank",
+      "account_number": "2464 2401 6494 1569",
+      "ifsc_code": "IFSC3036",
+      "pan_number": "PAN1611"
+    },
+    "education": [
+      {
+        "title": "Primary school teacher",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Photographer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "first_name": "Nour",
+    "last_name": "Adel",
+    "status": "Active",
+    "job_title": "Junior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 11.png",
+    "email": "nour.adel51@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Kom Ombo",
+      "address": "8555 Thomas Inlet Apt. 412, Stephanietown, MN 41738",
+      "state": "Oklahoma",
+      "country": "Afghanistan"
+    },
+    "contact_number": "01120454804",
+    "birthday": "Dec 22, 1998",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Junior Accountant",
+    "productive": "91",
+    "joining_date": "2022-11-27",
+    "salary": "4167",
+    "work_type": "WFH",
+    "zip_code": "48743",
+    "gender": "Male",
+    "nationality": "Argentina",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "HGA Bank",
+      "account_number": "1940 4582 7841 3494",
+      "ifsc_code": "IFSC7700",
+      "pan_number": "PAN2621"
+    },
+    "education": [
+      {
+        "title": "Scientist, research (physical sciences)",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Nurse, learning disability",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "first_name": "Sara",
+    "last_name": "Fathy",
+    "status": "Inactive",
+    "job_title": "Customer Support",
+    "category": "Support Team",
+    "profile_image": "users/user 12.png",
+    "email": "sara.fathy52@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Montaza",
+      "address": "64720 Beltran Place, Angelashire, AL 13435",
+      "state": "Wisconsin",
+      "country": "Singapore"
+    },
+    "contact_number": "01083166664",
+    "birthday": "Mar 19, 1991",
+    "type": "Experience",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Customer Support",
+    "productive": "51",
+    "joining_date": "2020-04-11",
+    "salary": "5948",
+    "work_type": "WFH",
+    "zip_code": "43470",
+    "gender": "Female",
+    "nationality": "Vanuatu",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "HPA Bank",
+      "account_number": "5849 6187 3880 2154",
+      "ifsc_code": "IFSC3042",
+      "pan_number": "PAN1696"
+    },
+    "education": [
+      {
+        "title": "Geophysical data processor",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Lecturer, higher education",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "first_name": "Mona",
+    "last_name": "Tamer",
+    "status": "Inactive",
+    "job_title": "Technical Support",
+    "category": "Support Team",
+    "profile_image": "users/user 13.png",
+    "email": "mona.tamer53@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Montaza",
+      "address": "1021 Patrick Tunnel Suite 860, West Rachelland, OK 04873",
+      "state": "Iowa",
+      "country": "Greenland"
+    },
+    "contact_number": "01143310456",
+    "birthday": "Jul 14, 2001",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Technical Support",
+    "productive": "60",
+    "joining_date": "2020-06-09",
+    "salary": "9881",
+    "work_type": "WFH",
+    "zip_code": "25212",
+    "gender": "Male",
+    "nationality": "Turkmenistan",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "HGB Bank",
+      "account_number": "1155 9210 1346 2956",
+      "ifsc_code": "IFSC6502",
+      "pan_number": "PAN5446"
+    },
+    "education": [
+      {
+        "title": "Special effects artist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Primary school teacher",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "first_name": "Nour",
+    "last_name": "Ibrahim",
+    "status": "Inactive",
+    "job_title": "Customer Support",
+    "category": "Support Team",
+    "profile_image": "users/user 14.png",
+    "email": "nour.ibrahim54@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Edfu",
+      "address": "709 Tammy Street, Mariastad, MA 83234",
+      "state": "Nebraska",
+      "country": "South Georgia and the South Sandwich Islands"
+    },
+    "contact_number": "01066926571",
+    "birthday": "Sep 21, 1998",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Customer Support",
+    "productive": "83",
+    "joining_date": "2022-02-12",
+    "salary": "7525",
+    "work_type": "WFO",
+    "zip_code": "45200",
+    "gender": "Male",
+    "nationality": "Cameroon",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "MWB Bank",
+      "account_number": "8446 1104 3450 4222",
+      "ifsc_code": "IFSC5291",
+      "pan_number": "PAN5798"
+    },
+    "education": [
+      {
+        "title": "Environmental education officer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Medical physicist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "first_name": "Mostafa",
+    "last_name": "Tamer",
+    "status": "Inactive",
+    "job_title": "Junior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 15.png",
+    "email": "mostafa.tamer55@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "Haram",
+      "address": "61693 Stacy Junctions Apt. 256, Chadmouth, NY 93618",
+      "state": "Texas",
+      "country": "Bolivia"
+    },
+    "contact_number": "01031405348",
+    "birthday": "Apr 13, 1994",
+    "type": "Experience",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Junior Accountant",
+    "productive": "78",
+    "joining_date": "2020-01-24",
+    "salary": "9457",
+    "work_type": "WFO",
+    "zip_code": "35689",
+    "gender": "Male",
+    "nationality": "Ethiopia",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "CJB Bank",
+      "account_number": "4350 7508 9912 3153",
+      "ifsc_code": "IFSC7126",
+      "pan_number": "PAN1411"
+    },
+    "education": [
+      {
+        "title": "Biomedical engineer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Colour technologist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "first_name": "Mona",
+    "last_name": "Ali",
+    "status": "Inactive",
+    "job_title": "Recruitment Specialist",
+    "category": "HR Manager",
+    "profile_image": "users/user 16.png",
+    "email": "mona.ali56@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Maadi",
+      "address": "93324 Miller Spurs, East Alejandra, WY 01608",
+      "state": "Kansas",
+      "country": "Malta"
+    },
+    "contact_number": "01114019460",
+    "birthday": "Nov 30, 2000",
+    "type": "Experience",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Recruitment Specialist",
+    "productive": "82",
+    "joining_date": "2023-08-03",
+    "salary": "5905",
+    "work_type": "WFH",
+    "zip_code": "42048",
+    "gender": "Male",
+    "nationality": "Timor-Leste",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "HSB Bank",
+      "account_number": "4359 3382 1056 1369",
+      "ifsc_code": "IFSC6543",
+      "pan_number": "PAN6467"
+    },
+    "education": [
+      {
+        "title": "Audiological scientist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Chief Marketing Officer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "first_name": "Mona",
+    "last_name": "Ibrahim",
+    "status": "Active",
+    "job_title": "Customer Support",
+    "category": "Support Team",
+    "profile_image": "users/user 17.png",
+    "email": "mona.ibrahim57@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "Dokki",
+      "address": "Unit 0503 Box 9271, DPO AE 03334",
+      "state": "Wisconsin",
+      "country": "Thailand"
+    },
+    "contact_number": "01060856805",
+    "birthday": "Jun 15, 1993",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Customer Support",
+    "productive": "82",
+    "joining_date": "2023-06-09",
+    "salary": "4694",
+    "work_type": "WFH",
+    "zip_code": "47243",
+    "gender": "Female",
+    "nationality": "Montenegro",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Poor",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "SOC Bank",
+      "account_number": "1491 7686 9651 7526",
+      "ifsc_code": "IFSC2072",
+      "pan_number": "PAN4154"
+    },
+    "education": [
+      {
+        "title": "Broadcast journalist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Tree surgeon",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "first_name": "Omar",
+    "last_name": "Samir",
+    "status": "Active",
+    "job_title": "React JS Developer",
+    "category": "Developer",
+    "profile_image": "users/user 18.png",
+    "email": "omar.samir58@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Esna",
+      "address": "51389 Lewis Well Apt. 721, Brownhaven, CT 89166",
+      "state": "South Carolina",
+      "country": "French Polynesia"
+    },
+    "contact_number": "01199785683",
+    "birthday": "Aug 29, 1991",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "React JS Developer",
+    "productive": "96",
+    "joining_date": "2023-11-17",
+    "salary": "8381",
+    "work_type": "WFO",
+    "zip_code": "31112",
+    "gender": "Female",
+    "nationality": "Greenland",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "LSB Bank",
+      "account_number": "4010 4411 1158 4012",
+      "ifsc_code": "IFSC6719",
+      "pan_number": "PAN1597"
+    },
+    "education": [
+      {
+        "title": "Dispensing optician",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Hydrogeologist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "first_name": "Dina",
+    "last_name": "Fathy",
+    "status": "Active",
+    "job_title": "Senior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 19.png",
+    "email": "dina.fathy59@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "Dokki",
+      "address": "7463 Kelley Mission Suite 974, Annetteview, NE 76612",
+      "state": "Missouri",
+      "country": "Saint Pierre and Miquelon"
+    },
+    "contact_number": "01011530005",
+    "birthday": "Jul 04, 2000",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Senior Accountant",
+    "productive": "64",
+    "joining_date": "2020-10-11",
+    "salary": "9064",
+    "work_type": "WFH",
+    "zip_code": "21105",
+    "gender": "Male",
+    "nationality": "Philippines",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "JB Bank",
+      "account_number": "6093 8845 5159 3531",
+      "ifsc_code": "IFSC9278",
+      "pan_number": "PAN8535"
+    },
+    "education": [
+      {
+        "title": "Editor, commissioning",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Chartered management accountant",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "first_name": "Mostafa",
+    "last_name": "Ibrahim",
+    "status": "Active",
+    "job_title": "Technical Support",
+    "category": "Support Team",
+    "profile_image": "users/user 20.png",
+    "email": "mostafa.ibrahim60@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "October",
+      "address": "7685 Carter Fall Apt. 093, Lake Danielleburgh, AL 05259",
+      "state": "Wisconsin",
+      "country": "Romania"
+    },
+    "contact_number": "01041932877",
+    "birthday": "Feb 04, 1996",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 5,
+      "name": "Sara H.",
+      "image": "/users/team_leader 5.png"
+    },
+    "role": "Technical Support",
+    "productive": "57",
+    "joining_date": "2023-04-04",
+    "salary": "9685",
+    "work_type": "WFO",
+    "zip_code": "36101",
+    "gender": "Male",
+    "nationality": "South Georgia and the South Sandwich Islands",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "MGB Bank",
+      "account_number": "3780 2483 6487 9683",
+      "ifsc_code": "IFSC5169",
+      "pan_number": "PAN6830"
+    },
+    "education": [
+      {
+        "title": "Scientist, biomedical",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Scientist, research (physical sciences)",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "first_name": "Dina",
+    "last_name": "Adel",
+    "status": "Inactive",
+    "job_title": "Training Coordinator",
+    "category": "HR Manager",
+    "profile_image": "users/user 1.png",
+    "email": "dina.adel61@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "28075 Ann Inlet, East Anthony, CT 03832",
+      "state": "Maryland",
+      "country": "Palestinian Territory"
+    },
+    "contact_number": "01002702555",
+    "birthday": "Dec 17, 1999",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "Training Coordinator",
+    "productive": "99",
+    "joining_date": "2023-09-09",
+    "salary": "9832",
+    "work_type": "WFO",
+    "zip_code": "47763",
+    "gender": "Female",
+    "nationality": "French Polynesia",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "VB Bank",
+      "account_number": "4007 7089 3043 6149",
+      "ifsc_code": "IFSC1113",
+      "pan_number": "PAN6465"
+    },
+    "education": [
+      {
+        "title": "Psychiatric nurse",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Research officer, trade union",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "first_name": "Dina",
+    "last_name": "Ibrahim",
+    "status": "Active",
+    "job_title": "Technical Support",
+    "category": "Support Team",
+    "profile_image": "users/user 2.png",
+    "email": "dina.ibrahim62@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "Dokki",
+      "address": "5873 Kathryn Cape, North Alyssaberg, UT 28768",
+      "state": "Arkansas",
+      "country": "Denmark"
+    },
+    "contact_number": "01232600336",
+    "birthday": "Sep 22, 1994",
+    "type": "Experience",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "Technical Support",
+    "productive": "68",
+    "joining_date": "2020-09-22",
+    "salary": "4217",
+    "work_type": "WFO",
+    "zip_code": "15291",
+    "gender": "Female",
+    "nationality": "Namibia",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "AJB Bank",
+      "account_number": "2160 8165 2292 3856",
+      "ifsc_code": "IFSC3789",
+      "pan_number": "PAN4045"
+    },
+    "education": [
+      {
+        "title": "Armed forces logistics/support/administrative officer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Advertising account planner",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "first_name": "Karim",
+    "last_name": "Samir",
+    "status": "Active",
+    "job_title": "Recruitment Specialist",
+    "category": "HR Manager",
+    "profile_image": "users/user 3.png",
+    "email": "karim.samir63@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "October",
+      "address": "51725 Robbins Streets Apt. 460, New Jeffmouth, WY 03929",
+      "state": "Delaware",
+      "country": "Namibia"
+    },
+    "contact_number": "01046797704",
+    "birthday": "May 17, 1991",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "Recruitment Specialist",
+    "productive": "50",
+    "joining_date": "2020-01-01",
+    "salary": "3183",
+    "work_type": "WFO",
+    "zip_code": "47564",
+    "gender": "Male",
+    "nationality": "Malta",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "DSB Bank",
+      "account_number": "1964 5333 5765 2227",
+      "ifsc_code": "IFSC1018",
+      "pan_number": "PAN6901"
+    },
+    "education": [
+      {
+        "title": "Surgeon",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Engineer, technical sales",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "first_name": "Mona",
+    "last_name": "Khaled",
+    "status": "Active",
+    "job_title": "Frontend Developer",
+    "category": "Developer",
+    "profile_image": "users/user 4.png",
+    "email": "mona.khaled64@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Montaza",
+      "address": "8238 Davis Street, Hinesfurt, CO 02018",
+      "state": "Wisconsin",
+      "country": "Lithuania"
+    },
+    "contact_number": "01212757896",
+    "birthday": "Dec 11, 1987",
+    "type": "Experience",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "Frontend Developer",
+    "productive": "88",
+    "joining_date": "2023-01-11",
+    "salary": "4782",
+    "work_type": "WFH",
+    "zip_code": "21682",
+    "gender": "Male",
+    "nationality": "Martinique",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "AHH Bank",
+      "account_number": "3147 1603 8986 9634",
+      "ifsc_code": "IFSC2264",
+      "pan_number": "PAN6656"
+    },
+    "education": [
+      {
+        "title": "Leisure centre manager",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Legal executive",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "first_name": "Omar",
+    "last_name": "Ali",
+    "status": "Inactive",
+    "job_title": "Customer Support",
+    "category": "Support Team",
+    "profile_image": "users/user 5.png",
+    "email": "omar.ali65@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Kom Ombo",
+      "address": "Unit 1181 Box 3241, DPO AA 17991",
+      "state": "Maine",
+      "country": "Botswana"
+    },
+    "contact_number": "01214702046",
+    "birthday": "Mar 01, 1989",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "Customer Support",
+    "productive": "56",
+    "joining_date": "2021-03-09",
+    "salary": "7974",
+    "work_type": "WFO",
+    "zip_code": "43902",
+    "gender": "Female",
+    "nationality": "Tonga",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "CWB Bank",
+      "account_number": "5953 2250 3557 3939",
+      "ifsc_code": "IFSC5770",
+      "pan_number": "PAN4140"
+    },
+    "education": [
+      {
+        "title": "Visual merchandiser",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Teacher, early years/pre",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "first_name": "Sara",
+    "last_name": "Samir",
+    "status": "Active",
+    "job_title": "UI Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 6.png",
+    "email": "sara.samir66@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "03716 Adkins Underpass, Velazquezhaven, AL 12113",
+      "state": "West Virginia",
+      "country": "Antigua and Barbuda"
+    },
+    "contact_number": "01281220782",
+    "birthday": "Jul 12, 1991",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "UI Designer",
+    "productive": "58",
+    "joining_date": "2020-05-16",
+    "salary": "9437",
+    "work_type": "WFH",
+    "zip_code": "48080",
+    "gender": "Female",
+    "nationality": "Malawi",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "ABJ Bank",
+      "account_number": "7814 7285 6735 4787",
+      "ifsc_code": "IFSC8883",
+      "pan_number": "PAN3229"
+    },
+    "education": [
+      {
+        "title": "Geologist, wellsite",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Hydrographic surveyor",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "first_name": "Ahmed",
+    "last_name": "Hany",
+    "status": "Inactive",
+    "job_title": "Technical Support",
+    "category": "Support Team",
+    "profile_image": "users/user 7.png",
+    "email": "ahmed.hany67@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Montaza",
+      "address": "6381 Mccoy Forest, Hoganfort, IN 42348",
+      "state": "Pennsylvania",
+      "country": "Oman"
+    },
+    "contact_number": "01239387199",
+    "birthday": "May 04, 1998",
+    "type": "Experience",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "Technical Support",
+    "productive": "74",
+    "joining_date": "2022-07-12",
+    "salary": "5042",
+    "work_type": "WFO",
+    "zip_code": "13308",
+    "gender": "Female",
+    "nationality": "Guadeloupe",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "SRB Bank",
+      "account_number": "7075 1380 1458 2472",
+      "ifsc_code": "IFSC7376",
+      "pan_number": "PAN4340"
+    },
+    "education": [
+      {
+        "title": "Housing manager/officer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Market researcher",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "first_name": "Lina",
+    "last_name": "Hany",
+    "status": "Active",
+    "job_title": "Training Coordinator",
+    "category": "HR Manager",
+    "profile_image": "users/user 8.png",
+    "email": "lina.hany68@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Heliopolis",
+      "address": "1169 Mia Viaduct Suite 196, Joshuahaven, NC 60905",
+      "state": "New Hampshire",
+      "country": "Wallis and Futuna"
+    },
+    "contact_number": "01147990412",
+    "birthday": "Nov 19, 1985",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "Training Coordinator",
+    "productive": "65",
+    "joining_date": "2023-06-17",
+    "salary": "6029",
+    "work_type": "WFH",
+    "zip_code": "30536",
+    "gender": "Male",
+    "nationality": "Marshall Islands",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "MWR Bank",
+      "account_number": "2703 1514 1986 5098",
+      "ifsc_code": "IFSC7078",
+      "pan_number": "PAN7830"
+    },
+    "education": [
+      {
+        "title": "Presenter, broadcasting",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "English as a second language teacher",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "first_name": "Omar",
+    "last_name": "Khaled",
+    "status": "Inactive",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 9.png",
+    "email": "omar.khaled69@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "68008 Mccall Haven Apt. 308, New William, IA 06337",
+      "state": "North Dakota",
+      "country": "Belgium"
+    },
+    "contact_number": "01149773280",
+    "birthday": "Sep 19, 1998",
+    "type": "Experience",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "UX Designer",
+    "productive": "79",
+    "joining_date": "2022-11-07",
+    "salary": "5333",
+    "work_type": "WFH",
+    "zip_code": "32235",
+    "gender": "Male",
+    "nationality": "Gabon",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "SB Bank",
+      "account_number": "9999 1915 9408 7060",
+      "ifsc_code": "IFSC2874",
+      "pan_number": "PAN8126"
+    },
+    "education": [
+      {
+        "title": "Hydrologist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Call centre manager",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "first_name": "Ahmed",
+    "last_name": "Mostafa",
+    "status": "Active",
+    "job_title": "Training Coordinator",
+    "category": "HR Manager",
+    "profile_image": "users/user 10.png",
+    "email": "ahmed.mostafa70@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "5158 Vanessa Harbor Suite 733, South Antonio, MD 84756",
+      "state": "Arizona",
+      "country": "Liechtenstein"
+    },
+    "contact_number": "01130439157",
+    "birthday": "Mar 30, 1986",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "Training Coordinator",
+    "productive": "71",
+    "joining_date": "2023-01-31",
+    "salary": "8897",
+    "work_type": "WFH",
+    "zip_code": "28907",
+    "gender": "Male",
+    "nationality": "Namibia",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "BWC Bank",
+      "account_number": "5084 8171 4180 6929",
+      "ifsc_code": "IFSC7330",
+      "pan_number": "PAN7825"
+    },
+    "education": [
+      {
+        "title": "Music tutor",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Journalist, magazine",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "first_name": "Omar",
+    "last_name": "Hany",
+    "status": "Inactive",
+    "job_title": "Mobile App Developer",
+    "category": "Developer",
+    "profile_image": "users/user 11.png",
+    "email": "omar.hany71@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Edfu",
+      "address": "046 Parker Ridge, Brownchester, AL 26062",
+      "state": "Indiana",
+      "country": "Mongolia"
+    },
+    "contact_number": "01158949181",
+    "birthday": "Oct 30, 1999",
+    "type": "Experience",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "Mobile App Developer",
+    "productive": "55",
+    "joining_date": "2022-07-14",
+    "salary": "3775",
+    "work_type": "WFO",
+    "zip_code": "28244",
+    "gender": "Male",
+    "nationality": "Bahrain",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Poor",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "GLB Bank",
+      "account_number": "3039 7652 5988 7817",
+      "ifsc_code": "IFSC5514",
+      "pan_number": "PAN1891"
+    },
+    "education": [
+      {
+        "title": "Early years teacher",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Set designer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "first_name": "Ahmed",
+    "last_name": "Kamal",
+    "status": "Active",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 12.png",
+    "email": "ahmed.kamal72@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Montaza",
+      "address": "940 Ayala Ports Suite 709, East Kyleborough, MT 78644",
+      "state": "Hawaii",
+      "country": "Bouvet Island (Bouvetoya)"
+    },
+    "contact_number": "01279471975",
+    "birthday": "Aug 17, 1986",
+    "type": "Experience",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "UX Designer",
+    "productive": "89",
+    "joining_date": "2021-02-08",
+    "salary": "7361",
+    "work_type": "WFO",
+    "zip_code": "46709",
+    "gender": "Female",
+    "nationality": "Canada",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "ALB Bank",
+      "account_number": "6319 5643 2115 9312",
+      "ifsc_code": "IFSC7308",
+      "pan_number": "PAN4077"
+    },
+    "education": [
+      {
+        "title": "Armed forces technical officer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Clinical embryologist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "first_name": "Omar",
+    "last_name": "Adel",
+    "status": "Active",
+    "job_title": "UI Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 13.png",
+    "email": "omar.adel73@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Heliopolis",
+      "address": "8672 Crystal Stravenue, Jonesview, WY 65356",
+      "state": "Connecticut",
+      "country": "Iran"
+    },
+    "contact_number": "01115448838",
+    "birthday": "Feb 04, 1994",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "UI Designer",
+    "productive": "91",
+    "joining_date": "2022-04-02",
+    "salary": "7933",
+    "work_type": "WFO",
+    "zip_code": "30026",
+    "gender": "Female",
+    "nationality": "Togo",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "MCW Bank",
+      "account_number": "5208 8009 4905 7519",
+      "ifsc_code": "IFSC3493",
+      "pan_number": "PAN9676"
+    },
+    "education": [
+      {
+        "title": "Paediatric nurse",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Public relations account executive",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "first_name": "Hany",
+    "last_name": "Ibrahim",
+    "status": "Active",
+    "job_title": "Technical Support",
+    "category": "Support Team",
+    "profile_image": "users/user 14.png",
+    "email": "hany.ibrahim74@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "Haram",
+      "address": "70080 Andrew Unions, North Marissachester, SD 49960",
+      "state": "South Dakota",
+      "country": "Croatia"
+    },
+    "contact_number": "01058715248",
+    "birthday": "Jul 19, 1985",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "Technical Support",
+    "productive": "93",
+    "joining_date": "2023-05-18",
+    "salary": "9852",
+    "work_type": "WFH",
+    "zip_code": "31503",
+    "gender": "Male",
+    "nationality": "Yemen",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "GDG Bank",
+      "account_number": "8704 2043 8583 7457",
+      "ifsc_code": "IFSC2996",
+      "pan_number": "PAN8885"
+    },
+    "education": [
+      {
+        "title": "Designer, blown glass/stained glass",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Radio broadcast assistant",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "first_name": "Lina",
+    "last_name": "Ali",
+    "status": "Inactive",
+    "job_title": "React JS Developer",
+    "category": "Developer",
+    "profile_image": "users/user 15.png",
+    "email": "lina.ali75@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Sidi Gaber",
+      "address": "200 Sweeney River Suite 027, Marshchester, MO 01561",
+      "state": "Virginia",
+      "country": "Ethiopia"
+    },
+    "contact_number": "01113461755",
+    "birthday": "Jun 12, 1987",
+    "type": "Experience",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "React JS Developer",
+    "productive": "55",
+    "joining_date": "2022-03-02",
+    "salary": "6125",
+    "work_type": "WFH",
+    "zip_code": "30690",
+    "gender": "Male",
+    "nationality": "Kuwait",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "FB Bank",
+      "account_number": "5007 7985 4933 4718",
+      "ifsc_code": "IFSC6644",
+      "pan_number": "PAN6381"
+    },
+    "education": [
+      {
+        "title": "Heritage manager",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Freight forwarder",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "first_name": "Lina",
+    "last_name": "Samir",
+    "status": "Inactive",
+    "job_title": "React JS Developer",
+    "category": "Developer",
+    "profile_image": "users/user 16.png",
+    "email": "lina.samir76@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "October",
+      "address": "733 West Glens, Michelleside, NV 26392",
+      "state": "Georgia",
+      "country": "Saint Barthelemy"
+    },
+    "contact_number": "01012720397",
+    "birthday": "Feb 28, 1994",
+    "type": "Experience",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "React JS Developer",
+    "productive": "75",
+    "joining_date": "2020-03-07",
+    "salary": "4700",
+    "work_type": "WFH",
+    "zip_code": "44714",
+    "gender": "Female",
+    "nationality": "Slovakia (Slovak Republic)",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "CSB Bank",
+      "account_number": "5357 6981 8482 2096",
+      "ifsc_code": "IFSC3712",
+      "pan_number": "PAN5172"
+    },
+    "education": [
+      {
+        "title": "Midwife",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Psychologist, counselling",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "first_name": "Ahmed",
+    "last_name": "Adel",
+    "status": "Active",
+    "job_title": "Senior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 17.png",
+    "email": "ahmed.adel77@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "Unit 6698 Box 3368, DPO AA 94373",
+      "state": "Hawaii",
+      "country": "Denmark"
+    },
+    "contact_number": "01211142588",
+    "birthday": "Jul 19, 1988",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "Senior Accountant",
+    "productive": "76",
+    "joining_date": "2021-12-04",
+    "salary": "8877",
+    "work_type": "WFH",
+    "zip_code": "29178",
+    "gender": "Male",
+    "nationality": "Aruba",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "BCB Bank",
+      "account_number": "9447 9135 8557 6633",
+      "ifsc_code": "IFSC6476",
+      "pan_number": "PAN6789"
+    },
+    "education": [
+      {
+        "title": "Retail banker",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Market researcher",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "first_name": "Omar",
+    "last_name": "Mostafa",
+    "status": "Active",
+    "job_title": "React JS Developer",
+    "category": "Developer",
+    "profile_image": "users/user 18.png",
+    "email": "omar.mostafa78@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Esna",
+      "address": "00361 Perez Mill Apt. 850, Javierton, WY 29925",
+      "state": "Wisconsin",
+      "country": "Jamaica"
+    },
+    "contact_number": "01127740403",
+    "birthday": "Aug 05, 1988",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "React JS Developer",
+    "productive": "80",
+    "joining_date": "2021-03-23",
+    "salary": "3458",
+    "work_type": "WFO",
+    "zip_code": "43833",
+    "gender": "Male",
+    "nationality": "Lesotho",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Poor",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "WHB Bank",
+      "account_number": "7570 7370 2892 6334",
+      "ifsc_code": "IFSC2820",
+      "pan_number": "PAN7969"
+    },
+    "education": [
+      {
+        "title": "Therapist, horticultural",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Applications developer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "first_name": "Mostafa",
+    "last_name": "Khaled",
+    "status": "Active",
+    "job_title": "Customer Support",
+    "category": "Support Team",
+    "profile_image": "users/user 19.png",
+    "email": "mostafa.khaled79@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Edfu",
+      "address": "1646 Timothy Village, Melindaland, OH 74432",
+      "state": "Washington",
+      "country": "Ethiopia"
+    },
+    "contact_number": "01010687700",
+    "birthday": "Oct 09, 1997",
+    "type": "Experience",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "Customer Support",
+    "productive": "58",
+    "joining_date": "2021-08-18",
+    "salary": "4601",
+    "work_type": "WFO",
+    "zip_code": "48347",
+    "gender": "Female",
+    "nationality": "Azerbaijan",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "HRR Bank",
+      "account_number": "5135 8280 2893 1331",
+      "ifsc_code": "IFSC5612",
+      "pan_number": "PAN3678"
+    },
+    "education": [
+      {
+        "title": "Media planner",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Chartered loss adjuster",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "first_name": "Omar",
+    "last_name": "Ali",
+    "status": "Inactive",
+    "job_title": "Technical Support",
+    "category": "Support Team",
+    "profile_image": "users/user 20.png",
+    "email": "omar.ali80@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Edfu",
+      "address": "96500 Rodriguez Roads, West Jamesfort, IA 53882",
+      "state": "Wisconsin",
+      "country": "Zambia"
+    },
+    "contact_number": "01298689428",
+    "birthday": "Jun 23, 1989",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 3,
+      "name": "Karim M.",
+      "image": "/users/team_leader 3.png"
+    },
+    "role": "Technical Support",
+    "productive": "84",
+    "joining_date": "2022-07-12",
+    "salary": "3051",
+    "work_type": "WFO",
+    "zip_code": "47230",
+    "gender": "Female",
+    "nationality": "Cook Islands",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "BLB Bank",
+      "account_number": "7413 4562 6160 9290",
+      "ifsc_code": "IFSC5742",
+      "pan_number": "PAN5476"
+    },
+    "education": [
+      {
+        "title": "Exhibition designer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Operations geologist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "first_name": "Nour",
+    "last_name": "Mostafa",
+    "status": "Active",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 1.png",
+    "email": "nour.mostafa81@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Montaza",
+      "address": "737 John Views Suite 804, Jackieview, NH 77643",
+      "state": "Nebraska",
+      "country": "Malawi"
+    },
+    "contact_number": "01065687508",
+    "birthday": "Jul 27, 1998",
+    "type": "Experience",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "UX Designer",
+    "productive": "83",
+    "joining_date": "2020-11-28",
+    "salary": "4456",
+    "work_type": "WFO",
+    "zip_code": "43995",
+    "gender": "Female",
+    "nationality": "Latvia",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "HB Bank",
+      "account_number": "2732 3289 7969 6062",
+      "ifsc_code": "IFSC8842",
+      "pan_number": "PAN4231"
+    },
+    "education": [
+      {
+        "title": "Energy manager",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Exhibitions officer, museum/gallery",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "first_name": "Mostafa",
+    "last_name": "Kamal",
+    "status": "Inactive",
+    "job_title": "Backend Developer",
+    "category": "Developer",
+    "profile_image": "users/user 2.png",
+    "email": "mostafa.kamal82@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Heliopolis",
+      "address": "PSC 8177, Box 5271, APO AP 17984",
+      "state": "Connecticut",
+      "country": "Sao Tome and Principe"
+    },
+    "contact_number": "01081227885",
+    "birthday": "Jul 05, 1992",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Backend Developer",
+    "productive": "78",
+    "joining_date": "2023-11-20",
+    "salary": "9074",
+    "work_type": "WFO",
+    "zip_code": "49997",
+    "gender": "Female",
+    "nationality": "Central African Republic",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "BHB Bank",
+      "account_number": "3178 4380 4970 4080",
+      "ifsc_code": "IFSC5424",
+      "pan_number": "PAN5356"
+    },
+    "education": [
+      {
+        "title": "Optometrist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Psychologist, educational",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "first_name": "Mostafa",
+    "last_name": "Tamer",
+    "status": "Active",
+    "job_title": "Technical Support",
+    "category": "Support Team",
+    "profile_image": "users/user 3.png",
+    "email": "mostafa.tamer83@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Edfu",
+      "address": "Unit 1269 Box 9335, DPO AP 64729",
+      "state": "Rhode Island",
+      "country": "Poland"
+    },
+    "contact_number": "01297611626",
+    "birthday": "Jul 14, 1988",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Technical Support",
+    "productive": "87",
+    "joining_date": "2020-04-10",
+    "salary": "7965",
+    "work_type": "WFH",
+    "zip_code": "36075",
+    "gender": "Female",
+    "nationality": "Senegal",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "JSB Bank",
+      "account_number": "8919 9139 3834 8496",
+      "ifsc_code": "IFSC4529",
+      "pan_number": "PAN8278"
+    },
+    "education": [
+      {
+        "title": "Buyer, industrial",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Medical physicist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "first_name": "Nour",
+    "last_name": "Fathy",
+    "status": "Active",
+    "job_title": "Customer Support",
+    "category": "Support Team",
+    "profile_image": "users/user 4.png",
+    "email": "nour.fathy84@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "580 Daniel Trace Apt. 907, Lake Cheryl, AR 75664",
+      "state": "Michigan",
+      "country": "Portugal"
+    },
+    "contact_number": "01250405301",
+    "birthday": "May 27, 1985",
+    "type": "Experience",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Customer Support",
+    "productive": "78",
+    "joining_date": "2022-12-10",
+    "salary": "7357",
+    "work_type": "WFH",
+    "zip_code": "26073",
+    "gender": "Male",
+    "nationality": "Pakistan",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "OAS Bank",
+      "account_number": "8947 5018 4356 7072",
+      "ifsc_code": "IFSC4095",
+      "pan_number": "PAN3133"
+    },
+    "education": [
+      {
+        "title": "Industrial/product designer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Chief Operating Officer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "first_name": "Lina",
+    "last_name": "Adel",
+    "status": "Inactive",
+    "job_title": "Frontend Developer",
+    "category": "Developer",
+    "profile_image": "users/user 5.png",
+    "email": "lina.adel85@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "October",
+      "address": "9576 Angela Stravenue Suite 878, Adamsshire, NV 81633",
+      "state": "California",
+      "country": "Poland"
+    },
+    "contact_number": "01097141766",
+    "birthday": "Feb 28, 1994",
+    "type": "Experience",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Frontend Developer",
+    "productive": "71",
+    "joining_date": "2023-05-24",
+    "salary": "9179",
+    "work_type": "WFO",
+    "zip_code": "38731",
+    "gender": "Male",
+    "nationality": "Iran",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "OWB Bank",
+      "account_number": "5129 2047 6625 6281",
+      "ifsc_code": "IFSC2540",
+      "pan_number": "PAN2236"
+    },
+    "education": [
+      {
+        "title": "Volunteer coordinator",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Teacher, music",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "first_name": "Mona",
+    "last_name": "Kamal",
+    "status": "Active",
+    "job_title": "Backend Developer",
+    "category": "Developer",
+    "profile_image": "users/user 6.png",
+    "email": "mona.kamal86@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Sidi Gaber",
+      "address": "437 Wilson Turnpike, Stephanieville, CT 94687",
+      "state": "Alaska",
+      "country": "Bahrain"
+    },
+    "contact_number": "01135462384",
+    "birthday": "Dec 07, 1998",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Backend Developer",
+    "productive": "97",
+    "joining_date": "2021-09-05",
+    "salary": "3137",
+    "work_type": "WFH",
+    "zip_code": "31116",
+    "gender": "Male",
+    "nationality": "Kyrgyz Republic",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "BSW Bank",
+      "account_number": "6282 8182 4043 2659",
+      "ifsc_code": "IFSC5234",
+      "pan_number": "PAN7923"
+    },
+    "education": [
+      {
+        "title": "Professor Emeritus",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Psychologist, counselling",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "first_name": "Ahmed",
+    "last_name": "Kamal",
+    "status": "Inactive",
+    "job_title": "Customer Support",
+    "category": "Support Team",
+    "profile_image": "users/user 7.png",
+    "email": "ahmed.kamal87@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "Haram",
+      "address": "9533 Cassidy Parkways, North Michaelfurt, AR 82640",
+      "state": "South Dakota",
+      "country": "Turks and Caicos Islands"
+    },
+    "contact_number": "01267740583",
+    "birthday": "Sep 02, 1994",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Customer Support",
+    "productive": "86",
+    "joining_date": "2021-02-14",
+    "salary": "8823",
+    "work_type": "WFH",
+    "zip_code": "37139",
+    "gender": "Female",
+    "nationality": "Cape Verde",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Poor",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "WWA Bank",
+      "account_number": "8526 7055 5032 6199",
+      "ifsc_code": "IFSC8102",
+      "pan_number": "PAN2556"
+    },
+    "education": [
+      {
+        "title": "Estate agent",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Podiatrist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "first_name": "Dina",
+    "last_name": "Adel",
+    "status": "Inactive",
+    "job_title": "Recruitment Specialist",
+    "category": "HR Manager",
+    "profile_image": "users/user 8.png",
+    "email": "dina.adel88@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Edfu",
+      "address": "299 Hughes Forges, Port Robertport, WV 35645",
+      "state": "Louisiana",
+      "country": "Italy"
+    },
+    "contact_number": "01176305630",
+    "birthday": "Feb 26, 2000",
+    "type": "Experience",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Recruitment Specialist",
+    "productive": "98",
+    "joining_date": "2021-12-16",
+    "salary": "3781",
+    "work_type": "WFH",
+    "zip_code": "48961",
+    "gender": "Male",
+    "nationality": "Italy",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "MMP Bank",
+      "account_number": "6007 1645 8854 2497",
+      "ifsc_code": "IFSC6388",
+      "pan_number": "PAN4422"
+    },
+    "education": [
+      {
+        "title": "Legal secretary",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Armed forces technical officer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "first_name": "Ahmed",
+    "last_name": "Kamal",
+    "status": "Inactive",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 9.png",
+    "email": "ahmed.kamal89@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Esna",
+      "address": "5996 Wolf Gateway, Paulfurt, IA 38008",
+      "state": "Georgia",
+      "country": "Croatia"
+    },
+    "contact_number": "01009309948",
+    "birthday": "Oct 10, 1990",
+    "type": "Experience",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "UX Designer",
+    "productive": "53",
+    "joining_date": "2022-04-04",
+    "salary": "8336",
+    "work_type": "WFH",
+    "zip_code": "34045",
+    "gender": "Female",
+    "nationality": "Saint Vincent and the Grenadines",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "HGB Bank",
+      "account_number": "8541 2555 1667 3001",
+      "ifsc_code": "IFSC2431",
+      "pan_number": "PAN2197"
+    },
+    "education": [
+      {
+        "title": "Magazine features editor",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Midwife",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "first_name": "Ahmed",
+    "last_name": "Samir",
+    "status": "Active",
+    "job_title": "Mobile App Developer",
+    "category": "Developer",
+    "profile_image": "users/user 10.png",
+    "email": "ahmed.samir90@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Montaza",
+      "address": "5269 Jeremiah Lock, West Tannerberg, KS 10534",
+      "state": "North Dakota",
+      "country": "Comoros"
+    },
+    "contact_number": "01036231096",
+    "birthday": "Aug 21, 1993",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Mobile App Developer",
+    "productive": "91",
+    "joining_date": "2022-10-08",
+    "salary": "4232",
+    "work_type": "WFH",
+    "zip_code": "49282",
+    "gender": "Male",
+    "nationality": "Saint Pierre and Miquelon",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "WIB Bank",
+      "account_number": "3881 3366 9633 5485",
+      "ifsc_code": "IFSC5967",
+      "pan_number": "PAN2313"
+    },
+    "education": [
+      {
+        "title": "Lawyer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Health service manager",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "first_name": "Hany",
+    "last_name": "Adel",
+    "status": "Active",
+    "job_title": "React JS Developer",
+    "category": "Developer",
+    "profile_image": "users/user 11.png",
+    "email": "hany.adel91@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "8941 Jessica Roads Suite 441, Cordovastad, NJ 62912",
+      "state": "West Virginia",
+      "country": "Guernsey"
+    },
+    "contact_number": "01066819936",
+    "birthday": "Oct 28, 1990",
+    "type": "Experience",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "React JS Developer",
+    "productive": "52",
+    "joining_date": "2020-05-09",
+    "salary": "7896",
+    "work_type": "WFO",
+    "zip_code": "12976",
+    "gender": "Male",
+    "nationality": "Portugal",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "GLB Bank",
+      "account_number": "1202 2719 2083 5298",
+      "ifsc_code": "IFSC9348",
+      "pan_number": "PAN5886"
+    },
+    "education": [
+      {
+        "title": "Prison officer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Teacher, adult education",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "first_name": "Ahmed",
+    "last_name": "Khaled",
+    "status": "Active",
+    "job_title": "Recruitment Specialist",
+    "category": "HR Manager",
+    "profile_image": "users/user 12.png",
+    "email": "ahmed.khaled92@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "October",
+      "address": "78469 Pierce Lake Apt. 849, Lake Heather, ND 59505",
+      "state": "South Carolina",
+      "country": "Cameroon"
+    },
+    "contact_number": "01183026108",
+    "birthday": "May 12, 2001",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Recruitment Specialist",
+    "productive": "63",
+    "joining_date": "2023-11-07",
+    "salary": "9970",
+    "work_type": "WFO",
+    "zip_code": "25632",
+    "gender": "Male",
+    "nationality": "Burkina Faso",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "RMB Bank",
+      "account_number": "3836 2660 9712 5151",
+      "ifsc_code": "IFSC2572",
+      "pan_number": "PAN2094"
+    },
+    "education": [
+      {
+        "title": "Surveyor, commercial/residential",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Higher education careers adviser",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "first_name": "Sara",
+    "last_name": "Ibrahim",
+    "status": "Active",
+    "job_title": "Senior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 13.png",
+    "email": "sara.ibrahim93@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "Dokki",
+      "address": "74388 Thompson Pass Apt. 590, Darylfurt, IL 25302",
+      "state": "Kansas",
+      "country": "South Georgia and the South Sandwich Islands"
+    },
+    "contact_number": "01023770655",
+    "birthday": "Apr 12, 2001",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Senior Accountant",
+    "productive": "75",
+    "joining_date": "2022-08-14",
+    "salary": "4366",
+    "work_type": "WFH",
+    "zip_code": "46173",
+    "gender": "Female",
+    "nationality": "Czech Republic",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "CAB Bank",
+      "account_number": "5010 9685 9286 4397",
+      "ifsc_code": "IFSC7639",
+      "pan_number": "PAN4277"
+    },
+    "education": [
+      {
+        "title": "Buyer, retail",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Exercise physiologist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "first_name": "Hany",
+    "last_name": "Hany",
+    "status": "Inactive",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/user 14.png",
+    "email": "hany.hany94@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Kom Ombo",
+      "address": "5058 Schmidt Stravenue, New Clifford, OH 20094",
+      "state": "Missouri",
+      "country": "Saudi Arabia"
+    },
+    "contact_number": "01217225893",
+    "birthday": "Aug 14, 1992",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "UX Designer",
+    "productive": "96",
+    "joining_date": "2021-06-05",
+    "salary": "8860",
+    "work_type": "WFH",
+    "zip_code": "39816",
+    "gender": "Male",
+    "nationality": "Chile",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "BWP Bank",
+      "account_number": "9640 2836 5331 1496",
+      "ifsc_code": "IFSC8776",
+      "pan_number": "PAN5810"
+    },
+    "education": [
+      {
+        "title": "Personnel officer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Biomedical scientist",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "first_name": "Mona",
+    "last_name": "Tamer",
+    "status": "Inactive",
+    "job_title": "Training Coordinator",
+    "category": "HR Manager",
+    "profile_image": "users/user 15.png",
+    "email": "mona.tamer95@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Armant",
+      "address": "0496 Berry Crest, Andrewburgh, DC 83673",
+      "state": "New Mexico",
+      "country": "Yemen"
+    },
+    "contact_number": "01094837660",
+    "birthday": "Nov 23, 1995",
+    "type": "Experience",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Training Coordinator",
+    "productive": "82",
+    "joining_date": "2023-02-22",
+    "salary": "8452",
+    "work_type": "WFH",
+    "zip_code": "15683",
+    "gender": "Female",
+    "nationality": "Zimbabwe",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "MLS Bank",
+      "account_number": "6624 3091 1009 6541",
+      "ifsc_code": "IFSC3482",
+      "pan_number": "PAN3344"
+    },
+    "education": [
+      {
+        "title": "Surveyor, building control",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Development worker, international aid",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "first_name": "Ahmed",
+    "last_name": "Fathy",
+    "status": "Inactive",
+    "job_title": "Senior Accountant",
+    "category": "Accountant",
+    "profile_image": "users/user 16.png",
+    "email": "ahmed.fathy96@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "October",
+      "address": "578 Figueroa Canyon Apt. 357, Tomfurt, WA 09080",
+      "state": "New Mexico",
+      "country": "Tunisia"
+    },
+    "contact_number": "01038099327",
+    "birthday": "Apr 29, 1993",
+    "type": "Experience",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Senior Accountant",
+    "productive": "91",
+    "joining_date": "2020-12-18",
+    "salary": "7114",
+    "work_type": "WFO",
+    "zip_code": "38533",
+    "gender": "Male",
+    "nationality": "Equatorial Guinea",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "GMB Bank",
+      "account_number": "5978 6950 1094 7083",
+      "ifsc_code": "IFSC4826",
+      "pan_number": "PAN7424"
+    },
+    "education": [
+      {
+        "title": "Ophthalmologist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Embryologist, clinical",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "first_name": "Ahmed",
+    "last_name": "Samir",
+    "status": "Inactive",
+    "job_title": "Mobile App Developer",
+    "category": "Developer",
+    "profile_image": "users/user 17.png",
+    "email": "ahmed.samir97@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Montaza",
+      "address": "5412 Williams Streets Apt. 891, Mcmillanmouth, LA 13524",
+      "state": "New Mexico",
+      "country": "Liberia"
+    },
+    "contact_number": "01014126518",
+    "birthday": "Sep 24, 1989",
+    "type": "Experience",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Mobile App Developer",
+    "productive": "55",
+    "joining_date": "2023-12-23",
+    "salary": "8647",
+    "work_type": "WFH",
+    "zip_code": "16441",
+    "gender": "Female",
+    "nationality": "Armenia",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "HWT Bank",
+      "account_number": "7420 4960 2337 8229",
+      "ifsc_code": "IFSC6448",
+      "pan_number": "PAN5679"
+    },
+    "education": [
+      {
+        "title": "Diagnostic radiographer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Hydrographic surveyor",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "first_name": "Sara",
+    "last_name": "Khaled",
+    "status": "Inactive",
+    "job_title": "Backend Developer",
+    "category": "Developer",
+    "profile_image": "users/user 18.png",
+    "email": "sara.khaled98@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Smouha",
+      "address": "Unit 5534 Box 9734, DPO AP 77238",
+      "state": "Pennsylvania",
+      "country": "Faroe Islands"
+    },
+    "contact_number": "01215036461",
+    "birthday": "Dec 29, 2000",
+    "type": "Fresher",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Backend Developer",
+    "productive": "88",
+    "joining_date": "2020-06-11",
+    "salary": "7874",
+    "work_type": "WFO",
+    "zip_code": "23322",
+    "gender": "Female",
+    "nationality": "Mali",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Poor",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "RSB Bank",
+      "account_number": "8521 6532 2114 8130",
+      "ifsc_code": "IFSC6141",
+      "pan_number": "PAN5980"
+    },
+    "education": [
+      {
+        "title": "Materials engineer",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Printmaker",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "first_name": "Dina",
+    "last_name": "Hany",
+    "status": "Active",
+    "job_title": "Technical Support",
+    "category": "Support Team",
+    "profile_image": "users/user 19.png",
+    "email": "dina.hany99@gmail.com",
+    "location": {
+      "governorate": "Luxor",
+      "city": "Esna",
+      "address": "USNV Phelps, FPO AA 96268",
+      "state": "Iowa",
+      "country": "Yemen"
+    },
+    "contact_number": "01142688091",
+    "birthday": "Sep 06, 2001",
+    "type": "Experience",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Technical Support",
+    "productive": "96",
+    "joining_date": "2020-07-25",
+    "salary": "8375",
+    "work_type": "WFO",
+    "zip_code": "19009",
+    "gender": "Female",
+    "nationality": "Argentina",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "GRB Bank",
+      "account_number": "7674 8456 7744 2777",
+      "ifsc_code": "IFSC1254",
+      "pan_number": "PAN6894"
+    },
+    "education": [
+      {
+        "title": "Product/process development scientist",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Personnel officer",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "first_name": "Nour",
+    "last_name": "Adel",
+    "status": "Inactive",
+    "job_title": "Recruitment Specialist",
+    "category": "HR Manager",
+    "profile_image": "users/user 20.png",
+    "email": "nour.adel100@gmail.com",
+    "location": {
+      "governorate": "Aswan",
+      "city": "Kom Ombo",
+      "address": "48033 Kelley Fords, Collinsview, VT 76454",
+      "state": "New Hampshire",
+      "country": "Czech Republic"
+    },
+    "contact_number": "01220656915",
+    "birthday": "Jan 15, 1989",
+    "type": "Experience",
+    "team_leader": {
+      "id": 4,
+      "name": "Mona H.",
+      "image": "/users/team_leader 4.png"
+    },
+    "role": "Recruitment Specialist",
+    "productive": "91",
+    "joining_date": "2021-03-15",
+    "salary": "3004",
+    "work_type": "WFH",
+    "zip_code": "16815",
+    "gender": "Male",
+    "nationality": "Micronesia",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Excellent",
+          "understanding": "Good"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "SNB Bank",
+      "account_number": "1709 3280 3209 8774",
+      "ifsc_code": "IFSC4928",
+      "pan_number": "PAN3267"
+    },
+    "education": [
+      {
+        "title": "Conference centre manager",
+        "duration": "Jan 2020 - Mar 2022",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Paediatric nurse",
+        "duration": "Dec 2018 - Dec 2019",
+        "experience": "1 yr"
+      }
+    ]
+  }
+]

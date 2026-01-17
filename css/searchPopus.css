@@ -1,0 +1,204 @@
+.search_popup {
+  position: fixed;
+  top: 50%;
+  left: -100%;
+  transform: translate(-100%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  cursor: pointer;
+}
+.search_popup .search_box {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-white);
+  border-radius: 5px;
+  padding: 0 10px;
+  justify-content: space-between;
+  gap: 10px;
+  position: relative;
+  z-index: 5;
+}
+.search_popup.show_search_popup {
+  visibility: visible;
+  animation: search_show 1.2s ease-in-out both;
+}
+.search_popup.hide_search_popup {
+  animation: search_hide 1.2s 0.3s ease-in-out both;
+}
+.search_popup .search_box input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: var(--bg-white);
+  height: 100%;
+  flex-grow: 1;
+  cursor: text;
+  position: relative;
+  z-index: 2;
+}
+.search_popup .search_box button {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.search_popup .search_box .search_result {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--bg-white);
+  border-radius: 0 0 5px 5px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.search_popup .search_box .search_result.show_result {
+  visibility: visible;
+}
+.search_popup .search_box .search_result.hide_result {
+  visibility: hidden;
+}
+.search_popup .search_box .search_result > span {
+  font-size: 14px;
+  padding: 5px;
+}
+.search_popup .search_box .search_result > span:hover {
+  background-color: var(--color-gray-light);
+}
+.search_popup .search_box .search_result .no_exist{
+    color: var(--color-gray);
+    text-align: center;
+    font-size: 18px;
+}
+.search_popup .search_box > .cancel {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  transition: 0.4s;
+  transition-delay: 0s;
+}
+.search_popup .search_box > .cancel:hover {
+  color: var(--color-green);
+  background-color: var(--bg-white);
+}
+.search_popup.show_search_popup .search_box > .cancel {
+  animation: cancel_show 0.3s 1.2s ease-out both;
+}
+.search_popup.hide_search_popup .search_box > .cancel {
+  animation: cancel_hide 0.4s ease-in both;
+}
+/* Start media screen and animation part */
+@keyframes cancel_show {
+  0% {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  100% {
+    top: -150px;
+    transform: translate(-50%, 0);
+  }
+}
+@keyframes cancel_hide {
+  0% {
+    top: -150px;
+    transform: translate(-50%, 0);
+  }
+  100% {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@keyframes search_show {
+  50% {
+    width: 500px;
+    height: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  }
+  100% {
+    width: 100%;
+    height: 100vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0;
+  }
+}
+@keyframes search_hide {
+  0% {
+    width: 100%;
+    height: 100vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  }
+  50% {
+    width: 500px;
+    height: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+@media (max-width: 500px) {
+  @keyframes search_show {
+    50% {
+      width: 90%;
+      height: 50px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 5px;
+      padding: 0;
+    }
+    100% {
+      padding: 20px;
+      width: 100%;
+      height: 100vh;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 0;
+    }
+  }
+  @keyframes search_hide {
+    0% {
+      padding: 20px;
+      width: 100%;
+      height: 100vh;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 5px;
+    }
+    50% {
+      padding: 0px;
+      width: 90%;
+      height: 50px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 5px;
+    }
+    100% {
+      visibility: hidden;
+    }
+  }
+}

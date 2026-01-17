@@ -1,0 +1,90 @@
+.toast_message {
+  padding: 20px 0;
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 300px;
+  gap: 10px;
+}
+.toast_message.there_message {
+  display: flex;
+}
+.toast_message .message {
+  position: relative;
+  width: 100%;
+  height: 65px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--bg-white);
+  left: 100%;
+  transition: 0.3s;
+  overflow: hidden;
+  > div {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-green);
+    > i {
+      color: var(--color-white);
+      font-size: 18px;
+    }
+  }
+  h1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+  }
+}
+.toast_message .message .progress {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-green);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.toast_message .message.active {
+  left: 0;
+}
+.toast_message .message.hide {
+  animation: hide_message 0.5s linear both;
+}
+@keyframes hide_message {
+  0% {
+    padding: 20px;
+    left: 0;
+    height: 65px;
+  }
+  90% {
+    height: 65px;
+    padding: 20px;
+    left: 0;
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+    height: 0;
+    padding: 0px;
+  }
+}
+.toast_message .message.active .progress {
+  animation: progress_animation 1.5s 0.4s linear both;
+}
+
+@keyframes progress_animation {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}

@@ -1,0 +1,154 @@
+.app_content .content .title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 8px 0;
+  margin-bottom: 10px;
+  color: var(--color-black);
+}
+@media (max-width: 650px) {
+  .app_content .content .title {
+    margin-left: 20px;
+  }
+  .app_content > .content > .container {
+    width: 100% !important;
+    max-width: 100%;
+    margin: 0;
+  }
+}
+.manage_content {
+  background: white;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.header h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.header button {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: var(--color-green);
+  gap: 10px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  font-weight: 600;
+}
+.header button:hover {
+  color: var(--color-green);
+  background-color: var(--color-green-light);
+}
+.header button.delete_status:hover {
+  background-color: var(--bs-danger-border-subtle);
+  color: var(--bs-danger);
+}
+.filter_bar,
+.filter_sections_contianer,
+.filter_btn {
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: transparent;
+}
+.filter_bar {
+  justify-content: space-between;
+}
+.filter_bar .box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--color-gray-light);
+  padding: 5px 10px;
+}
+.filter_bar .box .options {
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  top: calc(100% + 1px);
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0 5px #eee;
+  border: 1px solid var(--color-gray-light);
+  animation: FadeIn 0.3s;
+}
+
+.filter_bar .box > .current_option,
+.filter_bar .box > i {
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.filter_bar .box .options > span {
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.filter_bar .box .options > span:hover {
+  background-color: var(--color-gray-light);
+}
+.filter_btn {
+  gap: 10px;
+  font-size: 13px;
+  border: 1px solid var(--color-gray-light);
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+.filter_btn:active {
+  background-color: var(--color-gray-light);
+}
+
+@media (max-width: 1150px) {
+  .filter_bar .date_filter {
+    display: none;
+  }
+}
+@media (max-width: 970px) {
+  .filter_bar .type_filter {
+    display: none;
+  }
+}
+@media (max-width: 870px) {
+  .filter_bar .status_filter {
+    display: none;
+  }
+  .filter_bar .search_part {
+    width: 240px;
+  }
+}
+@media (max-width: 680px) {
+  .header button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .new_employee span {
+    display: none;
+  }
+  .filter_bar {
+    justify-content: space-between;
+  }
+  .filter_bar .search_part {
+    width: 200px;
+  }
+  .filter_btn {
+    padding: 8px;
+    font-size: 16px;
+  }
+  .filter_btn p {
+    display: none;
+  }
+}

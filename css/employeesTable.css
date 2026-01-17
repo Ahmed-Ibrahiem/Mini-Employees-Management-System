@@ -1,0 +1,130 @@
+.manage_content .table_container {
+  margin-top: 10px;
+  overflow: auto;
+  /* border-bottom: 1px solid var(--color-gray-light); */
+  border-radius: 0 0 5px 5px;
+}
+.manage_content .table_container table {
+  width: 100%;
+  box-sizing: border-box;
+}
+.manage_content .table_container table thead tr,
+.manage_content .table_container table tbody tr {
+  border: 1px solid var(--color-gray-light);
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bg-white);
+  border-radius: 5px 5px 0 0;
+}
+.manage_content .table_container table thead tr {
+  font-weight: 600;
+}
+.manage_content .table_container table tbody {
+  width: 100%;
+  display: inline-block;
+  max-height: 403px;
+  overflow-y: auto;
+}
+.manage_content .table_container table tbody tr {
+  border-radius: 0;
+  border-top: none;
+  background-color: white;
+  transition: 0.2s;
+  animation: display_row 0.5s;
+  cursor: pointer;
+
+}
+.manage_content .table_container table tbody tr:hover {
+  background-color: #eee;
+}
+@keyframes display_row {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.manage_content .table_container table tr td {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 110px;
+  font-size: 13px;
+}
+.manage_content .table_container table tr td > div {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.manage_content .table_container table tbody tr td.productive > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 10px;
+}
+.manage_content
+  .table_container
+  table
+  tbody
+  tr
+  td.productive
+  > div
+  .productive_prograss {
+  width: 70%;
+  height: 6px;
+  background-color: var(--color-gray-light);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.manage_content
+  .table_container
+  table
+  tbody
+  tr
+  td.productive
+  > div
+  .productive_prograss
+  > span {
+  display: inline-block;
+  height: 100%;
+  background-color: var(--color-green);
+}
+.manage_content .table_container table tr td > div.status,
+.manage_content .table_container table tr td > div.type {
+  text-transform: capitalize;
+}
+.manage_content .table_container table tr td.check_box_id,
+.manage_content .table_container table tr td.master_checkbox_td,
+.manage_content .table_container table tr td.emp_id {
+  max-width: 40px;
+  width: 30px;
+}
+/* .manage_content .table_container table tr td.check_box_id input,
+.manage_content .table_container table tr td.master_checkbox_td input {
+  position: relative;
+  appearance: none;
+}
+.manage_content .table_container table tr td.check_box_id input::before,
+.manage_content .table_container table tr td.master_checkbox_td input::before {
+  margin-top: -8px;
+  width: 16px;
+  height: 16px;
+}
+.manage_content .table_container table tr td.check_box_id input::after,
+.manage_content .table_container table tr td.master_checkbox_td input::after {
+  margin-top: -8px;
+  width: 16px;
+  height: 16px;
+} */

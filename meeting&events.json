@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Team Meeting",
+    "type": "Meeting",
+    "date": "2025-01-10",
+    "time": "10:30 am",
+    "description": "Weekly meeting to discuss frontend progress and blockers."
+  },
+  {
+    "id": 2,
+    "title": "HR Policy Workshop",
+    "type": "Event",
+    "date": "2025-01-12",
+    "time": "01:00 pm",
+    "description": "Workshop explaining the new HR policies and attendance rules."
+  },
+  {
+    "id": 3,
+    "title": "Backend Sync",
+    "type": "Meeting",
+    "date": "2025-01-15",
+    "time": "09:00 am",
+    "description": "Synchronization meeting for backend services and APIs."
+  },
+  {
+    "id": 4,
+    "title": "Product Launch Event",
+    "type": "Event",
+    "date": "2025-01-20",
+    "time": "05:00 pm",
+    "description": "Official launch event for the new product version."
+  },
+  {
+    "id": 5,
+    "title": "UI/UX Review Session",
+    "type": "Meeting",
+    "date": "2025-01-22",
+    "time": "11:00 am",
+    "description": "Reviewing the latest UI designs and usability feedback."
+  }
+]

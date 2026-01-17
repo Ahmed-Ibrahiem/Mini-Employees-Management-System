@@ -1,0 +1,318 @@
+[
+  {
+    "id": 1,
+    "first_name": "Lina",
+    "last_name": "Tarek",
+    "status": "Active",
+    "job_title": "UI/UX Team Leader",
+    "category": "UI/UX Designer",
+    "profile_image": "users/team_leader 1.png",
+    "email": "lina.tarek@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Maadi",
+      "address": "12 Nile Avenue, Apartment 101, Maadi, Cairo",
+      "state": "Cairo",
+      "country": "Egypt"
+    },
+    "contact_number": "01098765432",
+    "birthday": "1989-02-20",
+    "type": "Experienced",
+    "role": "Team Leader",
+    "productive": "85",
+    "joining_date": "2015-03-15",
+    "salary": "12000",
+    "work_type": "WFO",
+    "zip_code": "11431",
+    "gender": "Female",
+    "nationality": "Egyptian",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Arabic",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "CIB Bank",
+      "account_number": "9876543210987654",
+      "ifsc_code": "CIB12345",
+      "pan_number": "PAN5566"
+    },
+    "education": [
+      {
+        "title": "BSc in Graphic Design",
+        "duration": "2007-09 - 2011-06",
+        "experience": "4 yr"
+      },
+      {
+        "title": "Leadership & Management Course",
+        "duration": "2014-01 - 2014-12",
+        "experience": "1 yr"
+      }
+    ],
+    "team_members": [
+      { "id": 2, "name": "Omar Samir", "role": "UX Designer" },
+      { "id": 3, "name": "Sara Hassan", "role": "UI Designer" },
+      { "id": 4, "name": "Karim Mahmoud", "role": "UX Designer" },
+      { "id": 5, "name": "Mona Hassan", "role": "UI Designer" }
+    ]
+  },
+  {
+    "id": 2,
+    "first_name": "Omar",
+    "last_name": "Samir",
+    "status": "Active",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/team_leader 2.png",
+    "email": "omar.samir@gmail.com",
+    "location": {
+      "governorate": "Alexandria",
+      "city": "Montaza",
+      "address": "259 Bell Via Apt. 733, North Allisonstad, KY 20133",
+      "state": "Illinois",
+      "country": "Congo"
+    },
+    "contact_number": "01014561394",
+    "birthday": "1996-07-08",
+    "type": "Fresher",
+    "role": "UX Designer",
+    "productive": "58",
+    "joining_date": "2020-12-19",
+    "salary": "7409",
+    "work_type": "WFO",
+    "zip_code": "31426",
+    "gender": "Male",
+    "nationality": "Philippines",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Poor",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Spanish",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "PTF Bank",
+      "account_number": "1759929393034665",
+      "ifsc_code": "IFSC2492",
+      "pan_number": "PAN8855"
+    },
+    "education": [
+      {
+        "title": "Primary school teacher",
+        "duration": "2020-01 - 2022-03",
+        "experience": "2 yr 3 m"
+      },
+      {
+        "title": "Designer, blown glass/stained glass",
+        "duration": "2018-12 - 2019-12",
+        "experience": "1 yr"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "first_name": "Sara",
+    "last_name": "Hassan",
+    "status": "Active",
+    "job_title": "UI Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/team_leader 3.png",
+    "email": "sara.hassan@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Nasr City",
+      "address": "102 Nile Street, Apartment 45, Nasr City, Cairo",
+      "state": "Cairo",
+      "country": "Egypt"
+    },
+    "contact_number": "01234567890",
+    "birthday": "1994-03-15",
+    "type": "Experienced",
+    "role": "UI Designer",
+    "productive": "72",
+    "joining_date": "2019-06-10",
+    "salary": "8500",
+    "work_type": "Hybrid",
+    "zip_code": "11511",
+    "gender": "Female",
+    "nationality": "Egyptian",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "French",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "National Bank of Egypt",
+      "account_number": "1234567890123456",
+      "ifsc_code": "NBE12345",
+      "pan_number": "PAN1122"
+    },
+    "education": [
+      {
+        "title": "BSc in Computer Science",
+        "duration": "2012-09 - 2016-06",
+        "experience": "4 yr"
+      },
+      {
+        "title": "Front-end Web Development Bootcamp",
+        "duration": "2018-01 - 2018-07",
+        "experience": "6 m"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "first_name": "Karim",
+    "last_name": "Mahmoud",
+    "status": "Active",
+    "job_title": "UX Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/team_leader 4.png",
+    "email": "karim.mahmoud@gmail.com",
+    "location": {
+      "governorate": "Giza",
+      "city": "Dokki",
+      "address": "50 Nile Street, Apartment 12, Dokki, Giza",
+      "state": "Giza",
+      "country": "Egypt"
+    },
+    "contact_number": "01011223344",
+    "birthday": "1993-11-22",
+    "type": "Experienced",
+    "role": "UX Designer",
+    "productive": "65",
+    "joining_date": "2018-09-12",
+    "salary": "7800",
+    "work_type": "Hybrid",
+    "zip_code": "12345",
+    "gender": "Male",
+    "nationality": "Egyptian",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "Arabic",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Excellent",
+          "understanding": "Excellent"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "CIB Bank",
+      "account_number": "2233445566778899",
+      "ifsc_code": "CIB56789",
+      "pan_number": "PAN3344"
+    },
+    "education": [
+      {
+        "title": "BSc in Graphic Design",
+        "duration": "2010-09 - 2014-06",
+        "experience": "4 yr"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "first_name": "Mona",
+    "last_name": "Hassan",
+    "status": "Active",
+    "job_title": "UI Designer",
+    "category": "UI/UX Designer",
+    "profile_image": "users/team_leader 5.png",
+    "email": "mona.hassan@gmail.com",
+    "location": {
+      "governorate": "Cairo",
+      "city": "Heliopolis",
+      "address": "77 Tahrir Street, Apartment 21, Heliopolis, Cairo",
+      "state": "Cairo",
+      "country": "Egypt"
+    },
+    "contact_number": "01055667788",
+    "birthday": "1995-08-30",
+    "type": "Experienced",
+    "role": "UI Designer",
+    "productive": "70",
+    "joining_date": "2019-02-20",
+    "salary": "8200",
+    "work_type": "WFO",
+    "zip_code": "11757",
+    "gender": "Female",
+    "nationality": "Egyptian",
+    "known_languages": [
+      {
+        "language": "English",
+        "skills": {
+          "writing": "Excellent",
+          "speaking": "Good",
+          "understanding": "Excellent"
+        }
+      },
+      {
+        "language": "French",
+        "skills": {
+          "writing": "Good",
+          "speaking": "Good",
+          "understanding": "Good"
+        }
+      }
+    ],
+    "bank_information": {
+      "bank_name": "National Bank of Egypt",
+      "account_number": "3344556677889900",
+      "ifsc_code": "NBE67890",
+      "pan_number": "PAN5566"
+    },
+    "education": [
+      {
+        "title": "BSc in Graphic Design",
+        "duration": "2013-09 - 2017-06",
+        "experience": "4 yr"
+      }
+    ]
+  }
+]

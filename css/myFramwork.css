@@ -1,0 +1,132 @@
+.bg-primary {
+  background: var(--color-green) !important;
+}
+.bg-primary-light {
+  background: var(--color-green-light) !important;
+}
+.bg-gray {
+  background: var(--color-gray) !important;
+}
+.bg-gray-light {
+  background: var(--color-gray-light) !important;
+}
+.bg-red {
+  background: var(--color-red) !important;
+}
+.color-primary {
+  color: var(--color-green) !important;
+}
+.color-primary-light {
+  color: var(--color-green-light) !important;
+}
+.color-gray {
+  color: var(--color-gray) !important;
+}
+.color-gray-light {
+  color: var(--color-gray-light) !important;
+}
+.color-red {
+  color: var(--color-red) !important;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.end-20 {
+  right: 20px;
+}
+.translate-y-center {
+  transform: translateY(-50%);
+}
+.translate-x-center {
+  transform: translateY(-50%);
+}
+.border-primary {
+  border-color: #0e9f6e !important;
+}
+.border-gray {
+  border-color: var(--color-gray) !important;
+}
+.border-gray-light {
+  border-color: var(--color-gray-light) !important;
+}
+.elements-justify-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.elements-center-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.elements-center-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.search_box {
+  background-color: white;
+  border: 1px solid var(--color-gray-light);
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 30px;
+  position: relative;
+  > i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  > input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 13px;
+    width: 100%;
+  }
+}
+.select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 13px;
+  padding: 5px;
+  border: 1px solid var(--color-gray-light);
+  border-radius: 5px;
+  min-width: 100px;
+  position: relative;
+  cursor: pointer;
+  background: white;
+  > i {
+    color: var(--color-gray);
+  }
+  > .options {
+    position: absolute;
+    width: 100%;
+    background-color: var(--color-white);
+    border-radius: 5px;
+    left: 0;
+    top: 100%;
+    box-shadow: 0 0 10px #eee;
+    display: flex;
+    flex-direction: column;
+    z-index: 5;
+    > span {
+      padding: 5px;
+      font-size: 13px;
+    }
+    > span:hover {
+      background-color: #eee;
+    }
+  }
+}

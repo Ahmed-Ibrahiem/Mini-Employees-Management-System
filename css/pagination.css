@@ -1,0 +1,179 @@
+.pagination {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 15px;
+}
+.pagination .pagination_controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.pagination p,
+.pagination span,
+.pagination i {
+  font-size: 13px;
+  color: var(--color-gray);
+}
+.pagination .pagination_controls .section,
+.pagination .pagination_controls .section.navigation_btns > div {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  position: relative;
+}
+.pagination .pagination_controls .section.navigation_btns > div {
+  padding: 0;
+}
+.pagination .pagination_controls .section::after {
+  content: "";
+  width: 2px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: var(--color-gray-light);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.pagination .pagination_controls .section:last-of-type:after {
+  display: none;
+}
+.pagination .pagination_controls .section.show_control,
+.pagination .pagination_controls .section.navigation_btns {
+  gap: 10px;
+}
+.pagination .pagination_controls .section.show_control p > span {
+  font-weight: 600;
+  color: var(--color-black);
+}
+.pagination .pagination_controls .section.show_control .list_display_numbers {
+  height: 30px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: 2px solid var(--color-gray-light);
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-black);
+  > p,
+  i {
+    color: var(--color-black);
+  }
+}
+.pagination
+  .pagination_controls
+  .section.show_control
+  .list_display_numbers
+  .options,
+.pagination
+  .pagination_controls
+  .section.navigation_btns
+  .numbers_of_pages
+  .options {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: 2px solid var(--color-gray-light);
+  animation: FadeInRevers 0.3s;
+  background-color: var(--bg-white);
+  text-align: center;
+  > span {
+    padding: 5px;
+  }
+  > span:hover {
+    background: var(--color-gray-light);
+  }
+}
+.pagination
+  .pagination_controls
+  .section.show_control
+  .list_display_numbers
+  .options
+  > span.not_valid {
+  color: #ccc;
+}
+.pagination
+  .pagination_controls
+  .section.show_control
+  .list_display_numbers
+  .options
+  > span.valid {
+  color: var(--color-black);
+}
+.pagination .pagination_controls .section.navigation_btns button {
+  width: 45px;
+  height: 30px;
+  background-color: transparent;
+  color: var(--color-gray);
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--color-gray-light);
+  font-size: 14px;
+}
+.pagination .pagination_controls .section.navigation_btns p,
+.pagination .pagination_controls .section.navigation_btns span,
+.pagination .pagination_controls .section.navigation_btns i {
+  font-weight: 600;
+  color: var(--color-black);
+}
+.pagination .pagination_controls .section.navigation_btns button:last-of-type {
+  border-radius: 0 5px 5px 0;
+}
+.pagination .pagination_controls .section.navigation_btns .numbers_of_pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid var(--color-gray-light);
+  height: 30px;
+  width: 50px;
+  border-right: none;
+  border-left: none;
+  padding: 0 5px;
+  position: relative;
+  cursor: pointer;
+}
+.pagination .pagination_controls .section.navigation_btns button.valid i {
+  color: var(--color-black);
+}
+.pagination .pagination_controls .section.navigation_btns button.not_valid i {
+  color: var(--color-gray-light);
+}
+@media (max-width: 790px) {
+  .pagination {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pagination .pagination_controls {
+    gap: 15px;
+  }
+  .pagination .pagination_controls .section {
+    min-width: 48%;
+    justify-content: center;
+    flex-grow: 1;
+  }
+}
+@media (max-width: 420px) {
+  .pagination {
+    align-items: flex-start;
+  }
+  .pagination .pagination_controls .section {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/manageEmployee.css" />
+    <link rel="stylesheet" href="css/employeesTable.css" />
+    <link rel="stylesheet" href="css/create_new_employee_popup.css" />
+    <link rel="stylesheet" href="css/filter_menu.css" />
+    <link rel="stylesheet" href="css/searchPopus.css" />
+    <link rel="stylesheet" href="css/pagination.css" />
+    <link rel="stylesheet" href="ui-kit/CSS/autocomplete.css" />
+    <link rel="stylesheet" href="css/Toast_style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <div class="navbar">
+      <div class="nav_left">
+        <div class="img_box">
+          <img src="img/staff_logo.png" alt="" />
+          <h2>StaffM</h2>
+        </div>
+        <div class="search_part">
+          <input type="text" readonly value="search" id="search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Start App Content -->
+    <div class="app_content">
+      <!-- Start Menu -->
+      <div class="menu_container">
+        <div class="menu">
+          <div class="menu_content">
+            <ul>
+              <li class="active">
+                <div href="##">
+                  <div class="left">
+                    <i class="fa-solid fa-user"></i>
+                    <span>Employee</span>
+                  </div>
+                  <i class="fa-solid fa-angle-right angle"></i>
+                </div>
+                <ul class="nested_ul">
+                  <li><a href="index.html">Overview</a></li>
+                  <li class="active">
+                    <a href="employee_table.html">Manage Employee</a>
+                  </li>
+                  <li><a href="directory.html">Directory</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="menu_btn">
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
+      <!-- Start Content -->
+      <div class="content">
+        <h2 class="title">Manage Employee</h2>
+        <div class="container">
+          <div class="manage_content">
+            <!-- Start Header of content -->
+            <div class="header">
+              <h3>List Of Employees</h3>
+              <button class="new_employee add_status">
+                <i class="fa-solid fa-plus"></i>
+                <span>add new employee</span>
+              </button>
+            </div>
+            <!-- Start filter bar -->
+            <div class="filter_bar">
+              <div class="filter_sections_contianer">
+                <div class="left">
+                  <div class="search_part" id="search_btn">
+                    <input
+                      type="text"
+                      placeholder="Search employees by id, status, ..."
+                      readonly
+                      value="Search employees by id, status, ..."
+                    />
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+                <div class="status_filter box" id="status_filter">
+                  <p class="current_option">Status: <span>All</span></p>
+                  <i class="fa-solid fa-angle-down"></i>
+                  <div class="options" hidden>
+                    <span>All</span>
+                    <span>Active</span>
+                    <span>Inactive</span>
+                  </div>
+                </div>
+                <div class="type_filter box" id="type_filter">
+                  <p class="current_option">Type: <span>All</span></p>
+                  <i class="fa-solid fa-angle-down"></i>
+                  <div class="options" hidden>
+                    <span>All</span>
+                    <span>Experience</span>
+                    <span>Fresher</span>
+                  </div>
+                </div>
+              </div>
+              <button class="filter_btn" id="filter_btn">
+                <i class="fa-solid fa-filter"></i>
+                <p>filter</p>
+              </button>
+            </div>
+            <!-- Start employees table -->
+            <div class="table_container">
+              <table>
+                <thead>
+                  <tr>
+                    <td class="master_checkbox_td">
+                      <input type="checkbox" class="master_checkbox" />
+                    </td>
+                    <td class="emp_id">
+                      <span>Id</span>
+                      <i class="fa-solid fa-arrow-down"></i>
+                    </td>
+                    <td>Status</td>
+                    <td>Type</td>
+                    <td>
+                      <span>Team Leader</span
+                      ><i class="fa-solid fa-arrow-down"></i>
+                    </td>
+                    <td>
+                      <span>Role</span><i class="fa-solid fa-arrow-down"></i>
+                    </td>
+                    <td>
+                      <span>Productive</span
+                      ><i class="fa-solid fa-arrow-down"></i>
+                    </td>
+                    <td>Joining Date</td>
+                    <td>
+                      <span>Salary</span><i class="fa-solid fa-arrow-down"></i>
+                    </td>
+                    <td>Work type</td>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+              <div class="no_employees">
+                <i class="fa-solid fa-box-open"></i>
+                <p>No Employees</p>
+              </div>
+            </div>
+
+            <!-- Start pagination buttons -->
+            <div class="pagination">
+              <p>Pagination</p>
+              <div class="pagination_controls">
+                <div class="total_entries section">
+                  <p>Total entries : <span id="total_entries"> 100</span></p>
+                </div>
+                <div class="show_control section">
+                  <p>Show</p>
+                  <div class="list_display_numbers" id="list_display_numbers">
+                    <p class="current_option">10</p>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="options" hidden>
+                      <span>100</span>
+                      <span>50</span>
+                      <span>40</span>
+                      <span>30</span>
+                      <span>20</span>
+                      <span>10</span>
+                    </div>
+                  </div>
+                  <p>of <span>100</span> rows</p>
+                </div>
+                <div class="navigation_btns section">
+                  <p>Page</p>
+                  <div>
+                    <button class="prev" id="prev_page">
+                      <i class="fa-solid fa-arrow-left"></i>
+                    </button>
+                    <div class="numbers_of_pages" id="numbers_of_pages">
+                      <span class="current_page">1</span>
+                      <i class="fa-solid fa-angle-down"></i>
+                      <div class="options" hidden></div>
+                    </div>
+                    <button class="newx" id="next_page">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Start create new employee popup -->
+        <div class="create_new_employee_popup" hidden>
+          <div class="new_emp_popup_content container">
+            <div class="popup_header">
+              <button class="nav_btn_popup per_info active" id="per_info">
+                <i class="fa-solid fa-user"></i>
+                <span>Personal Infromation</span>
+              </button>
+              <button class="nav_btn_popup pro_info" id="pro_info">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>Professional Infromation</span>
+              </button>
+            </div>
+            <div class="forms_container">
+              <div class="new_emp_form">
+                <!-- Start First Form -->
+                <form class="row active per_info">
+                  <div class="box col-md-6 col-sm-12">
+                    <label for="f_name">First Name</label>
+                    <input
+                      type="text"
+                      id="f_name"
+                      name="first_name"
+                      data-type="require"
+                    />
+                    <p class="validation_massage">this field is not valid</p>
+                  </div>
+                  <div class="box col-md-6 col-sm-12">
+                    <label for="l_name">Last Name</label>
+                    <input
+                      type="text"
+                      id="l_name"
+                      name="last_name"
+                      data-type="require"
+                    />
+                    <p class="validation_massage">this field is not valid</p>
+                  </div>
+                  <div class="box col-md-6 col-sm-12">
+                    <label for="contact_number">Contact Number</label>
+                    <input
+                      type="number"
+                      id="contact_number"
+                      name="contact_number"
+                      data-type="require"
+                    />
+                    <p class="validation_massage">this field is not valid</p>
+                  </div>
+                  <div class="box col-md-6 col-sm-12">
+                    <label for="emial_address">Email Address</label>
+                    <input
+                      type="email"
+                      id="emial_address"
+                      name="email"
+                      data-type="require"
+                    />
+                    <p class="validation_massage">this field is not valid</p>
+                  </div>
+                  <div class="box col-md-6 col-sm-12">
+                    <label for="date_birth">Date Of Birth</label>
+                    <input
+                      type="date"
+                      id="date_birth"
+                      name="birthday"
+                      placeholder="Date Of Birth"
+                      data-type="require"
+                    />
+                    <p class="validation_massage">this field is not valid</p>
+                  </div>
+                  <div class="box col-6">
+                    <label for="employee_image">Choose Image</label>
+                    <div class="file_image_box">
+                      <input
+                        type="file"
+                        id="employee_image"
+                        data-type="optional"
+                        hidden
+                      />
+                      <label for="employee_image">
+                        <i class="fa-regular fa-image"></i>
+                        <span id="employee_image_name">Choose Image</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="box col-6">
+                    <label for="gender">Gender</label>
+                    <div class="select_box" id="gender">
+                      <span
+                        class="defualt_option"
+                        id="gender_field"
+                        name="gender"
+                        >Male</span
+                      >
+                      <i class="fa-solid fa-angle-right"></i>
+                      <div class="options" hidden>
+                        <span class="current_option">Male</span>
+                        <span>Female</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box col-6">
+                    <label for="type">Type</label>
+                    <div class="select_box" id="type">
+                      <span class="defualt_option" id="type_field" name="type"
+                        >experience</span
+                      >
+                      <i class="fa-solid fa-angle-right"></i>
+                      <div class="options">
+                        <span value="egy" class="current_option"
+                          >experience</span
+                        >
+                        <span value="amc">fresher</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box col-md-6 col-sm-12">
+                    <label for="salary">Salary</label>
+                    <input
+                      type="number"
+                      id="salary"
+                      name="salary"
+                      data-type="optional"
+                    />
+                  </div>
+                  <div class="box col-md-6 col-sm-12">
+                    <label for="nationality">Nationality</label>
+                    <input
+                      type="text"
+                      id="nationality"
+                      name="nationality"
+                      data-type="require"
+                    />
+                    <p class="validation_massage">this field is not valid</p>
+                  </div>
+                  <div class="col-12 row pr-0">
+                    <div class="box col-md-4 col-sm-6">
+                      <label for="city">City</label>
+                      <input type="text" id="city" name="city" />
+                    </div>
+                    <div class="box col-md-4 col-sm-6">
+                      <label for="governorate">Governorate</label>
+                      <input type="text" id="governorate" />
+                    </div>
+                    <div class="box col-md-4 col-sm-12">
+                      <label for="zip_code">ZIP Code</label>
+                      <input
+                        type="number"
+                        name="zip_code"
+                        data-type="require"
+                        id="zip_code"
+                      />
+                      <p class="validation_massage">this field is not valid</p>
+                    </div>
+                  </div>
+                </form>
+                <!-- Start Second Form -->
+                <form class="row pro_form">
+                  <div class="box col-md-6 col-sm-12">
+                    <label for="job_title">Jop Title</label>
+                    <div
+                      class="select_box"
+                      name="job_title"
+                      id="job_title"
+                      data-type="require"
+                    >
+                      <span class="defualt_option" id="jop_title_field"
+                        >UI/UX Designer</span
+                      >
+                      <i class="fa-solid fa-angle-right"></i>
+                      <div class="options" hidden>
+                        <div class="options_container">
+                          <span class="current_option">UI/UX Designer</span>
+                          <span>UI/UX Designer</span>
+                          <span>Developer</span>
+                          <span>HR Manager</span>
+                          <span>Accountant</span>
+                          <span>Support Team</span>
+                        </div>
+                        <button id="add_new_item">add new item</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box col-md-6 col-sm-12">
+                    <label for="date">Joining Date</label>
+                    <input
+                      type="date"
+                      id="joining_date"
+                      data-type="require"
+                      name="joining_date"
+                    />
+                    <p class="validation_massage">this field is not valid</p>
+                  </div>
+                  <div class="box col-md-6 col-sm-12">
+                    <label for="emp_status">Status</label>
+                    <div class="select_box" name="emp_status" id="emp_status">
+                      <span class="defualt_option" id="emp_status_field"
+                        >Active</span
+                      >
+                      <i class="fa-solid fa-angle-right"></i>
+                      <div class="options" hidden>
+                        <span class="current_option">Active</span>
+                        <span class="">Inactive</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box col-md-6 col-sm-12 productive">
+                    <label for="productive">productive</label>
+                    <input type="number" maxlength="2" id="productive" />
+                    <p class="validation_massage">this field is not valid</p>
+                    <i class="fa-solid fa-percent"></i>
+                  </div>
+                  <div class="box col-md-6 col-sm-12">
+                    <label for="work_type">Work Type</label>
+                    <div class="select_box" name="work_type" id="work_type">
+                      <span class="defualt_option" id="work_type_field"
+                        >WFO</span
+                      >
+                      <i class="fa-solid fa-angle-right"></i>
+                      <div class="options" hidden>
+                        <span class="current_option">WFO</span>
+                        <span>WFH</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box col-md-6 col-sm-12">
+                    <label for="team_leader">Team Leader</label>
+                    <div class="select_box" name="team_leader" id="team_leader">
+                      <span class="defualt_option" id="team_leader_field"
+                        >Omar S.</span
+                      >
+                      <i class="fa-solid fa-angle-right"></i>
+                      <div class="options" hidden>
+                        <div class="options_container"></div>
+                        <button id="add_new_team_leader">
+                          new team leader
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box col-md-6 col-sm-12 advanced_info">
+                    <label for="known_language">Known Language</label>
+                    <div class="select_box" id="known_language">
+                      <p class="defualt_option" id="known_language_field">
+                        English
+                      </p>
+                      <i class="fa-solid fa-angle-right"></i>
+                      <div class="options">
+                        <span>English</span>
+                        <span>Arabic</span>
+                        <span>French</span>
+                        <span>German</span>
+                        <span>Spanish</span>
+                        <span>Italian</span>
+                        <span>Portuguese</span>
+                        <span>Russian</span>
+                        <span>Turkish</span>
+                        <span>Dutch</span>
+                        <span>Swedish</span>
+                        <span>Norwegian</span>
+                        <span>Danish</span>
+                        <span>Finnish</span>
+                        <span>Polish</span>
+                        <span>Czech</span>
+                        <span>Hungarian</span>
+                        <span>Romanian</span>
+                        <span>Greek</span>
+                        <span>Chinese</span>
+                        <span>Japanese</span>
+                        <span>Korean</span>
+                        <span>Hindi</span>
+                      </div>
+                    </div>
+                    <div class="language_info row">
+                      <div class="writing col-md-4 col-sm-12">
+                        <h3>Writing</h3>
+                        <div class="select_box">
+                          <span class="defualt_option" id="writing_level"
+                            >Good</span
+                          >
+                          <i class="fa-solid fa-angle-right"></i>
+                          <div class="options" hidden>
+                            <div class="options_container">
+                              <span>Poor</span>
+                              <span class="current_option">Good</span>
+                              <span>Excelent</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="speaking col-md-4 col-sm-12">
+                        <h3>Speaking</h3>
+                        <div class="select_box">
+                          <span class="defualt_option" id="speaking_level"
+                            >Good</span
+                          >
+                          <i class="fa-solid fa-angle-right"></i>
+                          <div class="options" hidden>
+                            <div class="options_container">
+                              <span>Poor</span>
+                              <span class="current_option">Good</span>
+                              <span>Excelent</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="understanding col-md-4 col-sm-12">
+                        <h3>Understanding</h3>
+                        <div class="select_box">
+                          <span class="defualt_option" id="understanding_level"
+                            >Good</span
+                          >
+                          <i class="fa-solid fa-angle-right"></i>
+                          <div class="options" hidden>
+                            <div class="options_container">
+                              <span>Poor</span>
+                              <span class="current_option">Good</span>
+                              <span>Excelent</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box col-md-6 col-sm-12">
+                    <label for="educational">Education</label>
+                    <div
+                      class="autocomplete_selector"
+                      id="autocomplete_selector"
+                    >
+                      <input
+                        type="text"
+                        id="autocomplete_input"
+                        class="educational_field"
+                      />
+                      <div class="suggestions" id="suggestions" hidden>
+                        <span>HR Specialist</span>
+                        <span>HR Manager</span>
+                      </div>
+                    </div>
+                    <div class="educational_duration row">
+                      <div class="start_date col-md-6 col-sm-12">
+                        <label for="start_duration">Start Date</label>
+                        <input type="month" id="start_duration" />
+                      </div>
+                      <div class="end_date col-md-6 col-sm-12">
+                        <label for="end_duration">End Date</label>
+                        <input type="month" id="end_duration" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="box row bank_info">
+                    <div class="bank_name col-md-3 col-sm-12">
+                      <label for="bank_name">Bank Name</label>
+                      <input
+                        type="text"
+                        placeholder="Enter Back Name "
+                        id="bank_name"
+                      />
+                    </div>
+                    <div class="account_number col-md-3 col-sm-12">
+                      <label for="account_number">Account Number</label>
+                      <input
+                        type="text"
+                        placeholder="Enter Account Number"
+                        id="account_number"
+                      />
+                    </div>
+                    <div class="ifsc_code col-md-3 col-sm-12">
+                      <label for="ifsc_code">IFSC code</label>
+                      <input
+                        type="text"
+                        placeholder="Enter IFSC code"
+                        id="ifsc_code"
+                      />
+                    </div>
+                    <div class="pan_number col-md-3 col-sm-12">
+                      <label for="pan_number">Pan Number</label>
+                      <input
+                        type="text"
+                        placeholder="Enter Pan Number"
+                        id="pan_number"
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="control_btns">
+                <button class="cancel" id="cancel">Cancel</button>
+                <button class="" data-type="next" id="next_form_btn">
+                  Next
+                </button>
+                <button class="" data-type="Save" id="save_data_btn" hidden>
+                  Save
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Start Filter Menu -->
+        <div class="filter_menu" id="filter_menu" hidden>
+          <div class="filter_menu_content">
+            <div class="filter_head">
+              <h2>Filter</h2>
+              <button id="filter_exit">
+                <i class="fa-solid fa-xmark"></i>
+              </button>
+            </div>
+            <div class="filter_body">
+              <div class="filter_section employee_id style1">
+                <h3>Employee ID</h3>
+                <div class="section">
+                  <div class="left">
+                    <span>From</span>
+                    <input value="0" id="id_start" type="number" />
+                  </div>
+                  <div class="right">
+                    <span>To</span>
+                    <input value="100" id="id_end" type="number" />
+                  </div>
+                </div>
+              </div>
+              <div class="filter_section employee_work_type style2">
+                <h3>Work type</h3>
+                <div class="section">
+                  <div class="choice">
+                    <input
+                      name="work_type"
+                      checked
+                      id="both"
+                      value="both"
+                      type="radio"
+                    />
+                    <label for="both">Both</label>
+                  </div>
+                  <div class="choice">
+                    <input name="work_type" id="WFH" value="WFH" type="radio" />
+                    <label for="WFH">WFH (Work From Home)</label>
+                  </div>
+                  <div class="choice">
+                    <input name="work_type" id="WFO" value="WFO" type="radio" />
+                    <label for="WFO">Work From Office</label>
+                  </div>
+                </div>
+              </div>
+              <div class="filter_section employee_department style2">
+                <h3>Department</h3>
+                <div class="section">
+                  <div class="choice">
+                    <input
+                      value="UI/UX Designer"
+                      checked
+                      type="checkbox"
+                      id="ui/ux"
+                    />
+                    <label for="ui/ux">UI/UX Designer</label>
+                  </div>
+                  <div class="choice">
+                    <input
+                      value="Developer"
+                      checked
+                      type="checkbox"
+                      id="developer"
+                    />
+                    <label for="developer">Developer</label>
+                  </div>
+                  <div class="choice">
+                    <input value="HR Manager" type="checkbox" id="hr" />
+                    <label for="hr">HR Manager</label>
+                  </div>
+                  <div class="choice">
+                    <input
+                      value="Accountant"
+                      checked
+                      type="checkbox"
+                      id="accountant"
+                    />
+                    <label for="accountant">Accountant</label>
+                  </div>
+                  <div class="choice">
+                    <input
+                      value="Support Team"
+                      type="checkbox"
+                      id="support_team"
+                    />
+                    <label for="support_team">Support Team</label>
+                  </div>
+                </div>
+              </div>
+              <div class="filter_section date_range style1">
+                <h3>Date range</h3>
+                <div class="section">
+                  <div class="left">
+                    <span>Form</span>
+                    <input value="2017-04-22" id="start_date" type="date" />
+                  </div>
+                  <div class="right">
+                    <span>To</span>
+                    <input id="end_date" type="date" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="filter_footer">
+              <button class="apply_filter" id="apply_filter">Apply</button>
+              <button class="clear_all" id="clear_all_filter">Clear All</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Start Search Popup -->
+        <div class="search_popup" id="search_popup">
+          <div class="search_box">
+            <button class="cancel" id="cancel_search">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <input
+              type="text"
+              placeholder="Search Employees"
+              id="search_input"
+              autocomplete="off"
+            />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <div class="search_result" id="search_result">
+              <span>yes</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="toast_message"></div>
+      </div>
+    </div>
+
+    <script type="module" src="modules/definationElements.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="modules/manageEmployee.js"></script>
+    <script type="module" src="modules/filter.js"></script>
+    <script type="module" src="modules/renderEmployeesInTable.js"></script>
+    <script
+      type="module"
+      src="modules/New Employee Form Validation/Personal_form_validation.js"
+    ></script>
+    <script type="module" src="modules/Search.js"></script>
+    <script
+      type="module"
+      src="modules/New Employee Form Validation/Professional_form_validation.js"
+    ></script>
+    <script
+      type="module"
+      src="modules/New Employee Form Validation/Get_field_data.js"
+    ></script>
+    <script
+      type="module"
+      src="modules/New Employee Form Validation/Main.js"
+    ></script>
+    <script type="module" src="modules/Search.js"></script>
+    <script type="module" src="modules/pagination.js"></script>
+    <script type="module" src="modules/HandleEmployeeImage.js"></script>
+    <script type="module" src="ui-kit/JS/autocomplete.js"></script>
+    <script
+      type="module"
+      src="modules/Employee Details Modules/Toast_message.js"
+    ></script>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/popper.min.js"></script>
+  </body>
+</html>

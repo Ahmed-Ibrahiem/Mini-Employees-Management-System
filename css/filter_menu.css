@@ -1,0 +1,160 @@
+.filter_menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.filter_menu_content {
+  padding: 10px 0;
+
+  margin: 20px 0;
+
+  width: 400px;
+  min-height: calc(100vh - 40px);
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: filter_menu 0.3s;
+}
+
+@keyframes filter_menu {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.choice {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.filter_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--color-gray-light);
+}
+#filter_exit {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 18px;
+  color: var(--color-gray);
+}
+#filter_exit:hover {
+  color: var(--color-black);
+}
+.filter_head h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.filter_head,
+.filter_body,
+.filter_footer {
+  padding: 0 20px;
+}
+.filter_body,
+.filter_section,
+.style1 .section .left,
+.style1 .section .right,
+.style2 .section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.filter_section {
+  gap: 10px;
+}
+.filter_section > h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.filter_body {
+  margin: 10px 0;
+  padding: 10px 20px;
+  padding-top: 0;
+  border-bottom: 1px solid var(--color-gray-light);
+}
+.style1 .section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.style1 .section .left,
+.style1 .section .right {
+  width: 160px;
+}
+.style1 .section .left,
+.style1 .section .right {
+  gap: 5px;
+}
+.style1 .section .left > span,
+.style1 .section .right > span {
+  font-size: 16px;
+  color: var(--color-gray);
+}
+.style1 .section .left > input,
+.style1 .section .right > input {
+  border: 1px solid var(--color-gray-light);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.style2 .section {
+  gap: 8px;
+}
+.style2 .section label {
+  font-size: 14px;
+  color: var(--color-gray);
+  cursor: pointer;
+}
+.style2 .section input:checked + label {
+  color: var(--color-black);
+}
+.employee_work_type .section .choice {
+  gap: 5px;
+}
+.filter_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filter_footer button {
+  border: 1px solid var(--color-gray-light);
+  background-color: transparent;
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.filter_footer button.apply_filter {
+  background-color: var(--color-green);
+  color: white;
+}
+.filter_footer button.apply_filter:active,
+.filter_footer button.clear_all:active {
+  transform: scale(0.95);
+}
+.filter_footer button.clear_all:hover {
+  background-color: var(--color-gray-light);
+}
+
+@media (max-width: 768px) {
+  .filter_menu {
+    max-width: 90%;
+  }
+  .style1 .section {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

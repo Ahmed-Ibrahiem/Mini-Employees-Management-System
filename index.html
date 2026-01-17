@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/myFramwork.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/Home/home_style.css" />
+    <link rel="stylesheet" href="css/searchPopus.css" />
+    <link rel="stylesheet" href="css/Home/events_popups.css" />
+    <link rel="stylesheet" href="css/Home/line_chart.css" />
+    <link rel="stylesheet" href="css/Home/doughnut_chart.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <div class="container-fluid vh-100 d-flex flex-column">
+      <div class="my_navbar row p-1 position-relative z-5">
+        <div class="nav_left col-md-3 col-lg-2">
+          <div class="img_box d-flex align-items-center">
+            <img src="img/staff_logo.png" class="mh-100" alt="" />
+            <h2 class="fs-5 fw-bold">StaffM</h2>
+          </div>
+        </div>
+        <div class="nav_right col-sm-6 col-10 d-flex align-items-center">
+          <div class="search_part">
+            <input type="text" readonly value="search" id="search" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Home Body -->
+      <div class="home_body row">
+        <!-- Sidebar -->
+        <div class="sidebar close_sidebar col-xl-2 d-flex flex-column">
+          <div class="menu">
+            <div class="menu_content">
+              <ul>
+                <li class="active">
+                  <div href="index.html">
+                    <div class="left">
+                      <i class="fa-solid fa-user"></i>
+                      <span>Employee</span>
+                    </div>
+                    <i class="fa-solid fa-angle-right angle"></i>
+                  </div>
+                  <ul class="nested_ul">
+                    <li class="active"><a href="index.html">Overview</a></li>
+                    <li>
+                      <a href="employee_table.html">Manage Employee</a>
+                    </li>
+                    <li><a href="directory.html">Directory</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button class="menu_btn">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+        <!-- Start Home Page Content -->
+        <div class="home_content col-12 col-xl-10 p-3 d-flex flex-column">
+          <div class="home-content-header elements-justify-between">
+            <h1 class="fs-5 fw-bold">Dashboard</h1>
+            <p class="path color-gray fs-14">
+              Default / <span class="text-dark">Home</span>
+            </p>
+          </div>
+          <div class="home-content-area flex-grow-1">
+            <!-- Start Row One (home content top) -->
+            <div class="row-one">
+              <div class="banner p-3 section elements-center-column">
+                <div class="shap elements-center-row align-items-end">
+                  <img src="img/banner.png" alt="" />
+                </div>
+                <h1 class="m-0">HELLO AHMED!</h1>
+                <p>
+                  Good mornnig ! You have 45 new Applecations. It's a lot of
+                  work!
+                  <br />
+                  So let's go started
+                </p>
+                <button>Review It</button>
+              </div>
+              <!-- team-preformance Area -->
+              <div class="team-preformance-area">
+                <div class="top w-100 d-flex align-items-center">
+                  <div
+                    class="right flex-grow-1 section elements-justify-between"
+                  >
+                    <div>
+                      <h1 class="fs-3 fw-bold m-0">99</h1>
+                      <p class="fs-14 color-gray">Total Present</p>
+                    </div>
+                    <div class="icon elements-center-row fs-5">
+                      <i class="fa-solid fa-user-minus"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="center flex-grow-1 section elements-justify-between"
+                  >
+                    <div>
+                      <h1 class="fs-3 fw-bold m-0">15</h1>
+                      <p class="fs-14 color-gray">Total Abset</p>
+                    </div>
+                    <div class="icon elements-center-row fs-5">
+                      <i class="fa-solid fa-user-plus"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="left flex-grow-1 section elements-justify-between"
+                  >
+                    <div>
+                      <h1 class="fs-3 fw-bold m-0">06</h1>
+                      <p class="fs-14 color-gray">Total On Leave</p>
+                    </div>
+                    <div class="icon elements-center-row fs-5">
+                      <i class="fa-solid fa-user-xmark"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="bottom section">
+                  <div class="top">
+                    <h3>Team Performance</h3>
+                    <div class="right">
+                      <button class="legend-btn active" data-index="0">
+                        <div class="circle"></div>
+                        <span class="text">Designer Team</span>
+                      </button>
+                      <button class="legend-btn active" data-index="1">
+                        <div class="circle"></div>
+                        <span class="text">Devaloper Team</span>
+                      </button>
+                      <div class="select line_chart_type">
+                        <i class="fa-regular fa-calendar"></i>
+                        <p id="chart_type_choise">Last Year</p>
+                        <i class="fa-solid fa-angle-right"></i>
+                        <div class="options" hidden>
+                          <span>Last Year</span>
+                          <span>Last Month</span>
+                          <span>Last Week</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="bottom line_chart_container">
+                    <canvas id="line_chart"></canvas>
+                  </div>
+                </div>
+              </div>
+              <!-- total-employees -->
+              <div class="total-employees section">
+                <h1 class="title">Total Employee</h1>
+                <div class="doughnut_chart_container">
+                  <canvas id="doughnut_chart"></canvas>
+                </div>
+                <ul class="custom_doughnut_legend">
+                  <li class="doughnut_legend active" data-index="0">
+                    <span class="dot software"></span> Software engineer
+                    <p>50</p>
+                  </li>
+                  <li class="doughnut_legend active" data-index="1">
+                    <span class="dot uiux"></span> UI/UX Designer
+                    <p>28</p>
+                  </li>
+                  <li class="doughnut_legend active" data-index="2">
+                    <span class="dot analyst"></span> Data Analyst
+                    <p>25</p>
+                  </li>
+                  <li class="doughnut_legend active" data-index="3">
+                    <span class="dot mobile"></span> Mobile Development
+                    <p>10</p>
+                  </li>
+                  <li class="doughnut_legend active" data-index="4">
+                    <span class="dot pm"></span> Project Manager
+                    <p>7</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Start Row Two (home content bottom) -->
+            <div class="row-two">
+              <!-- employee-status -->
+              <div class="employee_status section d-flex flex-column">
+                <div class="head elements-justify-between flex-wrap">
+                  <h1 class="title">Employee Status</h1>
+                  <div class="sort_and_search elements-center-row gap-2">
+                    <button class="delete_employee">
+                      <i class="fa-solid fa-trash"></i>
+                    </button>
+                    <div class="select status-filter">
+                      <p class="current_option" id="current_filter_option">
+                        All
+                      </p>
+                      <i class="fa-solid fa-angle-down"></i>
+                      <div class="options FadeIn-animation" hidden>
+                        <span>All</span>
+                        <span>Active</span>
+                        <span>Inactive</span>
+                      </div>
+                    </div>
+                    <div class="search_box">
+                      <input
+                        type="text"
+                        placeholder="Search"
+                        id="search_employee"
+                      />
+                      <i
+                        class="fa-solid fa-magnifying-glass"
+                        id="search_btn"
+                      ></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="table_container">
+                  <div class="table">
+                    <div class="table_head">
+                      <div class="master">
+                        <input type="checkbox" id="master_checkbox" />
+                        <span>ID</span>
+                        <i class="fa-solid fa-arrow-down"></i>
+                      </div>
+                      <div class="name">
+                        <span>Name</span>
+                        <i class="fa-solid fa-arrow-down"></i>
+                      </div>
+                      <div class="job_role">
+                        <span>Job role</span>
+                      </div>
+                      <div class="status">
+                        <span>Status</span>
+                      </div>
+                      <div class="TL">
+                        <span>TL</span>
+                      </div>
+                      <div class="view">
+                        <span>View</span>
+                      </div>
+                    </div>
+                    <div class="table_body" id="employee_table">
+                      <!-- created by main js file -->
+                    </div>
+                    <div class="not_exist">
+                      <span>-------- NOT EXIST --------</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- meeting_and_events -->
+              <div class="meeting_and_events section">
+                <div class="head elements-justify-between">
+                  <h1 class="title">Meeting And Events</h1>
+                  <button class="add_new_event" id="open_event_form_popup">
+                    <i class="fa-solid fa-plus"></i> <span>Add</span>
+                  </button>
+                </div>
+                <div class="events_body" id="events_body"></div>
+                <div class="event_form_popup" id="event_form_popup">
+                  <div class="event_container">
+                    <h1>Add new event/meeting</h1>
+                    <div class="event_form">
+                      <div class="field">
+                        <label for="title_input">Titel</label>
+                        <input type="text" id="title_input" />
+                      </div>
+                      <div class="field">
+                        <label for="desc_input">Description</label>
+                        <textarea id="desc_input"></textarea>
+                      </div>
+                      <div class="compo_field row">
+                        <div class="col-12 col-md-6">
+                          <label for="date_input">Date</label>
+                          <input type="date" id="date_input" />
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <label for="time_input">Time</label>
+                          <input type="time" id="time_input" />
+                        </div>
+                      </div>
+                      <div class="field">
+                        <label for="desc">Description</label>
+                        <div class="select">
+                          <p id="type_event_option">Meeting</p>
+                          <i class="fa-solid fa-angle-right"></i>
+                          <div class="options" hidden>
+                            <span>Meeting</span>
+                            <span>Event</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="footer row gap-3 m-0 mt-3">
+                        <button class="col-5 col-sm-3" id="add_event_button">
+                          Add
+                        </button>
+                        <button
+                          class="col-5 col-sm-3 cancel"
+                          id="cancel_add_event"
+                        >
+                          Cancle
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- birthday -->
+              <div class="birthday section">
+                <div class="head elements-justify-between">
+                  <h1 class="title">Birthday</h1>
+                  <div class="select">
+                    <i class="fa-solid fa-calendar"></i>
+                    <p class="current_option">This Month</p>
+                    <i class="fa-solid fa-angle-down"></i>
+                    <div class="options FadeIn-animation" hidden>
+                      <span>This Month</span>
+                      <span>This Year</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="birthday_content d-flex flex-column gap-2">
+                  <div class="box">
+                    <div class="left">
+                      <div class="img_box">
+                        <img src="/users/user 1.png" alt="" />
+                      </div>
+                      <div class="text">
+                        <p>Ahmed Ibrahiem</p>
+                        <span>Web Developer</span>
+                      </div>
+                    </div>
+                    <div class="date">12/08/2024</div>
+                  </div>
+                  <div class="box">
+                    <div class="left">
+                      <div class="img_box">
+                        <img src="/users/user 1.png" alt="" />
+                      </div>
+                      <div class="text">
+                        <p>Ahmed Ibrahiem</p>
+                        <span>Web Developer</span>
+                      </div>
+                    </div>
+                    <div class="date">12/08/2024</div>
+                  </div>
+                  <div class="box">
+                    <div class="left">
+                      <div class="img_box">
+                        <img src="/users/user 2.png" alt="" />
+                      </div>
+                      <div class="text">
+                        <p>Ahmed Ibrahiem</p>
+                        <span>Web Developer</span>
+                      </div>
+                    </div>
+                    <div class="date">12/08/2024</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Start Search Popup -->
+            <div class="search_popup" id="search_popup">
+              <div class="search_box">
+                <button class="cancel" id="cancel_search">
+                  <i class="fa-solid fa-xmark"></i>
+                </button>
+                <input
+                  type="text"
+                  placeholder="Search Employees"
+                  id="search_input"
+                  autocomplete="off"
+                />
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <div class="search_result" id="search_result">
+                  <span>yes</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="modules/Home Page Modules/Main.js" type="module"></script>
+    <script src="modules/Search.js" type="module"></script>
+    <script
+      src="modules/Home Page Modules/Render_employee_table.js"
+      type="module"
+    ></script>
+    <script
+      src="modules/Home Page Modules/Search_employees.js"
+      type="module"
+    ></script>
+    <script
+      src="modules/Home Page Modules/Meeting&events.js"
+      type="module"
+    ></script>
+    <script
+      src="modules/Home Page Modules/Employees_birthday.js"
+      type="module"
+    ></script>
+    <script
+      src="modules/Home Page Modules/Selection_employees.js"
+      type="module"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+      type="module"
+      src="modules/Home Page Modules/line_chart.js"
+    ></script>
+    <script
+      type="module"
+      src="modules/Home Page Modules/doughnut_chart.js"
+    ></script>
+  </body>
+</html>
