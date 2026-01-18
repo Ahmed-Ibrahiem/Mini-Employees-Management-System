@@ -41,6 +41,10 @@ All data operations (add, edit, update) are fully functional and persisted using
   - Sorting
   - Filtering
 
+- Custom Toast Notification System
+  - Built from scratch using Vanilla JavaScript
+  - Smooth show/hide animations
+
 - Add new employee
 - Edit employee data
 - Delete employee
