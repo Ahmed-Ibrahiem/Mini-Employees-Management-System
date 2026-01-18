@@ -18,6 +18,7 @@ import { employee_table_body } from "./Render_employee_table.js";
 
 // Import search functionality
 import { search_employees } from "./Search_employees.js";
+import { show_trash_btn } from "./Selection_employees.js";
 
 // ===================== Sidebar Elements =====================
 // Sidebar container element
@@ -96,18 +97,20 @@ document.addEventListener("click", (e) => {
 // Handle select/deselect all visible and active employees
 const handle_all_checkbox_btn = () => {
   const all_active_checkbox = [];
+  let checked_input = [];
 
   // Collect checkboxes from rows that are not disabled
   employee_table_body.querySelectorAll(".table_row").forEach((row) => {
-    if (!row.classList.contains("disabled")) {
-      all_active_checkbox.push(row.querySelector("input"));
-    }
+    all_active_checkbox.push(row.querySelector("input"));
   });
 
   // Apply master checkbox state to all collected checkboxes
   all_active_checkbox.forEach((input) => {
     input.checked = master_checkbox.checked;
+    input.checked && checked_input.push(input);
   });
+
+  show_trash_btn(checked_input);
 };
 
 // Listen for changes on master checkbox
@@ -118,6 +121,7 @@ filter_options.forEach((option) =>
   option.addEventListener("click", () => {
     current_filter_option.textContent = option.textContent;
     filter_employee(Person.all_employees);
+    handle_all_checkbox_btn();
   }),
 );
 
@@ -129,9 +133,9 @@ export const search_input = document.getElementById("search_employee");
 const search_btn = document.getElementById("search_btn");
 
 // Execute employee search on button click
-search_btn.addEventListener("click", () =>
-  search_employees(search_input.value),
-);
+search_btn.addEventListener("click", () => {
+  (search_employees(search_input.value), handle_all_checkbox_btn());
+});
 
 // ===================== Initialize Application =====================
 // Start application by loading and processing employee data

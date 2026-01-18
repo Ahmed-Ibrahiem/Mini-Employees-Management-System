@@ -150,9 +150,6 @@
 }
 
 @media (max-width: 768px) {
-  .filter_menu {
-    max-width: 90%;
-  }
   .style1 .section {
     flex-direction: column;
     gap: 10px;

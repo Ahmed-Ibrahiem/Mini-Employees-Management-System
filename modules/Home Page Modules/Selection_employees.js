@@ -9,7 +9,7 @@ let checkbox_selected = [];
 export const get_all_checkbox_checked = () => {
   const all_checkbox_employee = [
     ...document.querySelectorAll(
-      ".employee_status .table_container .table .table_body input"
+      ".employee_status .table_container .table .table_body input",
     ),
   ];
 
@@ -19,13 +19,13 @@ export const get_all_checkbox_checked = () => {
       all_checkbox_employee.forEach((checkbox) => {
         if (checkbox.checked) checkbox_selected.push(checkbox);
       });
-      show_trash_btn();
+      show_trash_btn(checkbox_selected);
     });
   });
 };
 
-const show_trash_btn = () => {
-  if (checkbox_selected.length > 0) {
+export const show_trash_btn = (checked_input) => {
+  if (checked_input.length > 0) {
     trash_btn.classList.add("active");
   } else {
     trash_btn.classList.remove("active");
@@ -34,9 +34,9 @@ const show_trash_btn = () => {
 
 trash_btn.addEventListener("click", () => {
   const all_emps_id = checkbox_selected.map((emp) =>
-    Number.parseInt(emp.dataset.id)
+    Number.parseInt(emp.dataset.id),
   );
   deleteEmployee(all_emps_id);
   filter_employee(Person.all_employees);
-  show_trash_btn();
+  show_trash_btn(checkbox_selected);
 });
