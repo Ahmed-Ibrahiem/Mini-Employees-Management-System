@@ -123,25 +123,6 @@ This project was built to:
 
 ---
 
-## References & Trusted Sources
-
-- MDN Web Docs – JavaScript & Web APIs
-  [https://developer.mozilla.org/](https://developer.mozilla.org/)
-
-- LocalStorage API – MDN
-  [https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
-
-- Chart.js Documentation
-  [https://www.chartjs.org/docs/latest/](https://www.chartjs.org/docs/latest/)
-
-- HTML Living Standard (WHATWG)
-  [https://html.spec.whatwg.org/](https://html.spec.whatwg.org/)
-
-- CSS Layout Guide – MDN
-  [https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
-
----
-
 ## Author
 
 **Ahmed Komando**
